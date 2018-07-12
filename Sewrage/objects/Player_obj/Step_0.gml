@@ -1,5 +1,4 @@
 /// @description Insert description here
-// You can write your code in this editor
 
 /// moving right 
 if keyboard_check(ord("D"))
@@ -49,4 +48,14 @@ if keyboard_check(ord("S"))
 				y += global.walkingspeed
 			}
 	}
-		
+/// Jumpping
+key_jump = keyboard_check_pressed(vk_space);
+
+/// Shooting
+if (mouse_check_button(mb_left)) and (cooldown < 1)
+{
+	
+	instance_create_layer(x,y,"Bullet_layer",Bubble_obj);
+	cooldown = 3;
+}
+cooldown = cooldown - 1

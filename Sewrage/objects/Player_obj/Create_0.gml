@@ -1,5 +1,6 @@
 /// @description Insert description here
-// You can write your code in this editor
+///range cooldown
+cooldown = 0;
 
 ///walkingspeed
 globalvar walkingspeed;
@@ -11,3 +12,6 @@ runningspeed = 8
 
 globalvar shift;
 shift = false
+
+hsp = 5
+vsp = 0
