@@ -59,3 +59,22 @@ if (mouse_check_button(mb_left)) and (cooldown < 1)
 	cooldown = 8;
 }
 cooldown = cooldown - 1
+
+/// player health 
+if (playerhealth >= maxplayerhealth)
+{
+	playerhealth = maxplayerhealth;
+}
+
+///death
+if (playerhealth <= 0)
+{
+	instance_destroy();
+	game_restart();
+}
+
+if (x <= 128) x = 128;
+if (x >= room_width - 128) x = room_width - 128;
+if (y <= 128) y = 128;
+if(y >= room_height - 128) y = room_height - 128;
+

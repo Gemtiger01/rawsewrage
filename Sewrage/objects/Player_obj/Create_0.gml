@@ -15,3 +15,6 @@ shift = false
 
 hsp = 5
 vsp = 0
+
+maxplayerhealth = 100
+playerhealth = maxplayerhealth

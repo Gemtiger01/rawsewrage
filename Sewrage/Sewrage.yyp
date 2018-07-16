@@ -95,11 +95,35 @@
             }
         },
         {
+            "Key": "3a71e08a-8b0e-4f36-bc31-bfcc69a8a4b6",
+            "Value": {
+                "id": "e5e17523-c8ed-446f-a4b6-f6788e513e0a",
+                "resourcePath": "objects\\Camera_obj\\Camera_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "43e8d1fc-05f8-42c0-ae0f-4d6601d8cb07",
             "Value": {
                 "id": "af223145-a1b2-48b6-aba0-9b39627c9fa4",
                 "resourcePath": "views\\43e8d1fc-05f8-42c0-ae0f-4d6601d8cb07.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4931a9d0-1049-4819-9b1d-85d88e4064de",
+            "Value": {
+                "id": "0178c8ac-49b4-4bb2-91ce-09c3d5bd0511",
+                "resourcePath": "sprites\\enemy_spr\\enemy_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "55a30918-408f-4d04-a7fe-de455960ee5e",
+            "Value": {
+                "id": "70a48c8e-f4ca-4e91-ae79-ce0432955569",
+                "resourcePath": "objects\\ratspawner_obj\\ratspawner_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -124,6 +148,14 @@
                 "id": "8e9b86ac-de18-4a14-8863-767079ca23e5",
                 "resourcePath": "sprites\\sprite2\\sprite2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8253ea92-dce9-4835-a66c-f46c2faeaa97",
+            "Value": {
+                "id": "5f150de3-6cf9-4042-ad7b-99df3b0fb7b7",
+                "resourcePath": "objects\\ratenemy_obj\\ratenemy_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -236,14 +268,6 @@
                 "id": "5779cf19-9d75-4a83-a46f-289aedb14a7d",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
-            }
-        },
-        {
-            "Key": "fab0c863-b6d2-4019-be30-f6ca08d1e61a",
-            "Value": {
-                "id": "c2ad6cb2-086f-4447-8914-23be5933b7d5",
-                "resourcePath": "objects\\Status_obj\\Status_obj.yy",
-                "resourceType": "GMObject"
             }
         },
         {
