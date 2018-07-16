@@ -68,13 +68,57 @@
             "visible": true
         },
         {
+            "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "Tiles_1",
+            "id": "d83b7f4f-004e-414f-8058-bb67b8b627fe",
+            "depth": 200,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRTileLayer",
+            "prev_tileheight": 256,
+            "prev_tilewidth": 256,
+            "mvc": "1.0",
+            "tiles": {
+                "SerialiseData": null,
+                "SerialiseHeight": 9,
+                "SerialiseWidth": 15,
+                "TileSerialiseData": [
+                    2,3,3,2,4,4,2,2,2,4,2,2,2,4,4,
+                    2,3,3,2,4,4,2,5,5,1,5,5,5,2,2,
+                    2,3,3,2,2,2,2,1,1,1,1,1,3,3,2,
+                    2,3,3,2,2,5,5,1,1,1,1,1,3,3,2,
+                    2,3,3,2,5,1,1,1,1,1,2,2,3,3,2,
+                    2,3,3,1,1,1,1,1,1,2147483648,2,2,3,3,2,
+                    2,3,3,1,1,1,1,5,5,2,4,2,3,3,2,
+                    2,2,2,2,2,2,2,2,2,4,4,2,3,3,2147483648,
+                    4,4,4,4,4,4,4,4,4,4,4,4,3,3,2147483648
+                ]
+            },
+            "tilesetId": "5e276ee3-effb-4983-8c67-3b7ad3bcc1db",
+            "userdefined_depth": false,
+            "visible": true,
+            "x": 0,
+            "y": 0
+        },
+        {
             "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Background",
             "id": "419b572a-e547-46ff-9057-d1bd393beb57",
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4294967295 },
-            "depth": 200,
+            "depth": 300,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
