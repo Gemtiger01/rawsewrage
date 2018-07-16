@@ -25,7 +25,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_74AF5012","id": "b9f806dc-2db8-4952-b86d-81667f0a7cfe","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_74AF5012","objId": "cd5d0310-a153-48ce-8858-e5d9fc86e54b","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 448,"y": 320}
+{"name": "inst_74AF5012","id": "b9f806dc-2db8-4952-b86d-81667f0a7cfe","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_74AF5012","objId": "cd5d0310-a153-48ce-8858-e5d9fc86e54b","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 32,"y": 608}
             ],
             "layers": [
 
@@ -43,7 +43,7 @@
             "id": "419b572a-e547-46ff-9057-d1bd393beb57",
             "animationFPS": 15,
             "animationSpeedType": "0",
-            "colour": { "Value": 4278190080 },
+            "colour": { "Value": 4294967295 },
             "depth": 100,
             "grid_x": 32,
             "grid_y": 32,
@@ -62,7 +62,7 @@
             "m_serialiseFrozen": false,
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "spriteId": "00000000-0000-0000-0000-000000000000",
+            "spriteId": "0a80097b-fb2d-4bcb-8589-a368a8407676",
             "stretch": false,
             "userdefined_animFPS": false,
             "userdefined_depth": false,
@@ -87,12 +87,12 @@
     },
     "roomSettings":     {
         "id": "4e1b38eb-3563-43f0-9e05-007de02e3d95",
-        "Height": 768,
+        "Height": 2160,
         "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
         "persistent": false,
         "mvc": "1.0",
-        "Width": 1024
+        "Width": 3840
     },
     "mvc": "1.0",
     "views": [
