@@ -3,3 +3,4 @@ with(Player_obj)
 {
 	Player_obj.playerhealth -=	25	
 }
+instance_destroy();

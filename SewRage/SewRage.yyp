@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "14db884e-ce20-4179-9f0a-e11903916fe2",
+            "Value": {
+                "id": "62b55605-679e-4bec-bc4a-cc5602fa9c54",
+                "resourcePath": "objects\\obj_mafiaboss\\obj_mafiaboss.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "19fd57d5-f2e3-491e-908c-cfacec51f3a6",
             "Value": {
                 "id": "003d2b2c-600b-4c32-9fac-3be35b5472ef",
@@ -147,6 +155,14 @@
             "Value": {
                 "id": "e5e17523-c8ed-446f-a4b6-f6788e513e0a",
                 "resourcePath": "objects\\Camera_obj\\Camera_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3a7f1945-bc55-45ea-8509-6a64dfca556d",
+            "Value": {
+                "id": "b88906f8-f148-4367-a202-5edcab204301",
+                "resourcePath": "objects\\obj_mobstate\\obj_mobstate.yy",
                 "resourceType": "GMObject"
             }
         },

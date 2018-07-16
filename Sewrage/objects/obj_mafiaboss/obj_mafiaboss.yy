@@ -1,18 +1,18 @@
 {
-    "id": "3a7f1945-bc55-45ea-8509-6a64dfca556d",
+    "id": "14db884e-ce20-4179-9f0a-e11903916fe2",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_mobstate",
+    "name": "obj_mafiaboss",
     "eventList": [
         {
-            "id": "d5ec2bc4-5735-413a-8f0c-7f467d325ec3",
+            "id": "aa35d916-d27b-4999-a845-02ad3ad80a01",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "3a7f1945-bc55-45ea-8509-6a64dfca556d"
+            "eventtype": 0,
+            "m_owner": "14db884e-ce20-4179-9f0a-e11903916fe2"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "78759e19-3f72-4f21-b778-12cba1b6722f",
     "visible": true
 }
