@@ -4,11 +4,11 @@ cooldown = 0;
 
 ///walkingspeed
 globalvar walkingspeed;
-walkingspeed = 4
+walkingspeed = 8
 
 ///runningspeed
 globalvar runningspeed;
-runningspeed = 8
+runningspeed = 16
 
 globalvar shift;
 shift = false
