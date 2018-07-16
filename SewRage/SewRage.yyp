@@ -90,7 +90,7 @@
             "Key": "249a765f-3526-4351-85b6-b81c1baa20d4",
             "Value": {
                 "id": "fb09f9b8-0576-4fa0-b1ef-54d6d9a5a312",
-                "resourcePath": "sprites\\player_spr\\player_spr.yy",
+                "resourcePath": "sprites\\spr_player\\spr_player.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -122,7 +122,7 @@
             "Key": "37a90c7b-04c0-41b4-9162-9a7392f36cce",
             "Value": {
                 "id": "54d3b667-bf33-4ee0-8b86-32c52c942512",
-                "resourcePath": "sprites\\healthborder_spr\\healthborder_spr.yy",
+                "resourcePath": "sprites\\spr_healthbar\\spr_healthbar.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -210,7 +210,7 @@
             "Key": "9cd21526-6d96-4940-9ecd-1bbc0736b32f",
             "Value": {
                 "id": "8795a920-677a-4ec6-b337-bec2acfe6092",
-                "resourcePath": "sprites\\healthfiller_spr\\healthfiller_spr.yy",
+                "resourcePath": "sprites\\spr_healthfiller\\spr_healthfiller.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -258,7 +258,7 @@
             "Key": "bb33dd95-d4ed-4bff-ac33-2a53dcdc5beb",
             "Value": {
                 "id": "98fc4606-86c9-4bd6-80dc-99e94938ca04",
-                "resourcePath": "sprites\\Bubble_spr\\Bubble_spr.yy",
+                "resourcePath": "sprites\\spr_bubble\\spr_bubble.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -332,6 +332,14 @@
                 "id": "b71f63e8-c1c8-4881-8479-290764beec8a",
                 "resourcePath": "sprites\\spr_superborder\\spr_superborder.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e0f78751-30cc-4677-a05c-a2fc8cbbbc81",
+            "Value": {
+                "id": "b28a58c8-84e5-4c7d-a2d4-a9f0c016e65b",
+                "resourcePath": "objects\\obj_bandage\\obj_bandage.yy",
+                "resourceType": "GMObject"
             }
         },
         {
