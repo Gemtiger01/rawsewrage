@@ -2,7 +2,7 @@
     "id": "4931a9d0-1049-4819-9b1d-85d88e4064de",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "enemy_spr",
+    "name": "spr_mafiarat",
     "For3D": false,
     "HTile": false,
     "VTile": false,

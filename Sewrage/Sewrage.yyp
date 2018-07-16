@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "084235d0-44e8-4164-a226-33b234872316",
+            "Value": {
+                "id": "7ad7bf9f-cf59-4679-bea2-fd2a18e9400f",
+                "resourcePath": "sprites\\spr_leveltwo\\spr_leveltwo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0f837fb5-1d3f-47d1-b496-e38aee8a7c2e",
             "Value": {
                 "id": "504aa6f5-9979-433a-bd9f-2b72c8785e10",
@@ -154,7 +162,7 @@
             "Key": "4931a9d0-1049-4819-9b1d-85d88e4064de",
             "Value": {
                 "id": "0178c8ac-49b4-4bb2-91ce-09c3d5bd0511",
-                "resourcePath": "sprites\\enemy_spr\\enemy_spr.yy",
+                "resourcePath": "sprites\\spr_mafiarat\\spr_mafiarat.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -195,6 +203,14 @@
             "Value": {
                 "id": "948e7990-bba5-46d4-b1aa-e4b239e19fdd",
                 "resourcePath": "sprites\\spr_coin\\spr_coin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "78759e19-3f72-4f21-b778-12cba1b6722f",
+            "Value": {
+                "id": "98727534-97e4-4f31-b3b5-f14e51c2fce8",
+                "resourcePath": "sprites\\spr_mafiaboss\\spr_mafiaboss.yy",
                 "resourceType": "GMSprite"
             }
         },
