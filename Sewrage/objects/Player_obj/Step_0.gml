@@ -72,9 +72,9 @@ if (playerhealth <= 0)
 	instance_destroy();
 	game_restart();
 }
-
-if (x <= 128) x = 128;
-if (x >= room_width - 128) x = room_width - 128;
-if (y <= 128) y = 128;
-if(y >= room_height - 128) y = room_height - 128;
+/// keeps the player within the screen boarder
+if (x <= 512) x = 512;
+if (x >= room_width - 512) x = room_width - 512;
+if (y <= 512) y = 512;
+if(y >= room_height - 512) y = room_height - 512;
 
