@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_floor1",
+    "name": "rm_floorone2",
     "id": "2c4b93d2-cd83-437e-ba77-fae27ae214f9",
     "creationCodeFile": "",
     "inheritCode": false,
@@ -38,13 +38,57 @@
             "visible": true
         },
         {
+            "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "Tiles_1",
+            "id": "5e77ebb7-0f3e-4d0a-a0ae-85ff2187c662",
+            "depth": 100,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRTileLayer",
+            "prev_tileheight": 256,
+            "prev_tilewidth": 256,
+            "mvc": "1.0",
+            "tiles": {
+                "SerialiseData": null,
+                "SerialiseHeight": 9,
+                "SerialiseWidth": 16,
+                "TileSerialiseData": [
+                    13,10,7,1,7,10,13,12,12,13,10,6,7,10,13,2147483648,
+                    9,7,6,7,6,7,9,12,12,8,6,7,6,7,8,2147483648,
+                    9,6,7,6,7,6,9,12,12,8,7,6,7,6,8,2147483648,
+                    9,7,6,7,6,7,9,3,3,8,6,7,6,7,8,2147483648,
+                    9,6,7,6,7,6,2,2,2,2,7,6,7,6,8,2147483648,
+                    9,7,6,7,6,7,2,2,2,2,6,7,6,7,8,2147483648,
+                    7,6,7,6,7,6,13,10,10,13,7,6,7,6,8,2147483648,
+                    6,7,6,7,6,7,9,12,12,8,6,7,6,7,8,2147483648,
+                    10,10,10,10,10,10,13,3,3,13,10,10,10,10,13,2147483648
+                ]
+            },
+            "tilesetId": "35e6084f-c516-4c53-b030-a61d1d531759",
+            "userdefined_depth": false,
+            "visible": true,
+            "x": 0,
+            "y": 0
+        },
+        {
             "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Background",
             "id": "b264997c-6a70-4111-aa2b-62d9c5ef8102",
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4278190080 },
-            "depth": 100,
+            "depth": 200,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -87,12 +131,12 @@
     },
     "roomSettings":     {
         "id": "4f994506-de37-4620-b053-877d85966cda",
-        "Height": 768,
+        "Height": 2300,
         "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
         "persistent": false,
         "mvc": "1.0",
-        "Width": 1024
+        "Width": 3848
     },
     "mvc": "1.0",
     "views": [
