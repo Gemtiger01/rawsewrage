@@ -1,5 +1,6 @@
 with(other){
-	obj_mafiaboss.hp -= 10
+	hp -= 10
 }
-instance_destroy(Bubble_obj);
+effect_create_above(ef_firework, x, y, 5, c_blue);
+instance_destroy();
 
