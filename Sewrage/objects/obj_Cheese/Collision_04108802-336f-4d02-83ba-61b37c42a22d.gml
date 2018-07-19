@@ -2,6 +2,5 @@
 with (other){
 	palyerhealth = playerhealth - 25
 }
-effect_create_above(ef_explosion, x, y, 1, c_yellow);
+effect_create_above(ef_firework, x, y, 20, c_yellow);
 instance_destroy();
-

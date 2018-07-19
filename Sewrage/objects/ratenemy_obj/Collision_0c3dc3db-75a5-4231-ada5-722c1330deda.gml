@@ -1,6 +1,6 @@
 /// @description Insert description here
-with(Player_obj)
+with(other)
 {
-	Player_obj.playerhealth -=	25	
+	playerhealth -=	25	
 }
 instance_destroy();
