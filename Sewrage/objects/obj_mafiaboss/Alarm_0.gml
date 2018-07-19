@@ -1,6 +1,6 @@
 /// @description Insert description here
-if (ratsummon <= 0){
-	instance_create_layer(x,y, "Instances", ratenemy_obj);
-	ratsummon = 120
-}
+
+instance_create_layer(x,y, "Instances", ratenemy_obj);
+ratsummon = random_range(80,120);
+alarm_set(0, ratsummon);
 

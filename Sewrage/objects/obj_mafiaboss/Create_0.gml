@@ -6,6 +6,5 @@ spd = 6
 
 CheeseCooldown = 100
 
-image_xscale = 3;
-image_yscale = 3;
- 
+ratsummon = random_range(80,120);
+alarm_set(0,ratsummon);
