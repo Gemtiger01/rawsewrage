@@ -1,38 +1,28 @@
 {
-    "id": "14db884e-ce20-4179-9f0a-e11903916fe2",
+    "id": "e5632c8f-4bf6-4116-a0ac-e1c91ea3f3d3",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_mafiaboss",
+    "name": "obj_Cheese",
     "eventList": [
         {
-            "id": "aa35d916-d27b-4999-a845-02ad3ad80a01",
+            "id": "83fb68cf-867a-4776-8e84-e6a6d735afbd",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "14db884e-ce20-4179-9f0a-e11903916fe2"
+            "m_owner": "e5632c8f-4bf6-4116-a0ac-e1c91ea3f3d3"
         },
         {
-            "id": "50c1a752-d05c-4f31-891c-81145e765cdb",
+            "id": "04108802-336f-4d02-83ba-61b37c42a22d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "collisionObjectId": "cd5d0310-a153-48ce-8858-e5d9fc86e54b",
             "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "14db884e-ce20-4179-9f0a-e11903916fe2"
-        },
-        {
-            "id": "3987034a-4c27-4682-9741-4ce4bb7a70e3",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "14db884e-ce20-4179-9f0a-e11903916fe2"
+            "eventtype": 4,
+            "m_owner": "e5632c8f-4bf6-4116-a0ac-e1c91ea3f3d3"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -53,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "78759e19-3f72-4f21-b778-12cba1b6722f",
+    "spriteId": "85bcbb6d-eaee-48ba-a9e6-677e7eda74f4",
     "visible": true
 }

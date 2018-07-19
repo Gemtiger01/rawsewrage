@@ -5,3 +5,4 @@ if (instance_exists(Player_obj))
 }
 
 
+if (hp <= 0) instance_destroy(ratenemy_obj);

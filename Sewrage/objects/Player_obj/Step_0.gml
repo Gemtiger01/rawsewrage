@@ -56,7 +56,7 @@ if (mouse_check_button(mb_left)) and (cooldown < 1)
 {
 	instance_create_layer(x,y,"Bullet_layer",Bubble_obj);
 	instance_create_layer(x ,y +4,"Bullet_layer",Bubble_obj);
-	cooldown = 8;
+	cooldown = 4
 }
 cooldown = cooldown - 1
 
