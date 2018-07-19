@@ -2,7 +2,7 @@
 if instance_exists(Player_obj){
 	if (distance_to_point(Player_obj.x, Player_obj.y) >= 100){
 		move_towards_point(Player_obj.x, Player_obj.y, spd)
-	} else if (CheeseCooldown <= 0){
+	} else if (CheeseCooldown <= 100){
 		instance_create_layer(x,y, "Bullet_layer", obj_Cheese);
 		CheeseCooldown = 120
 	} else{
