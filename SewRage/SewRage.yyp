@@ -175,11 +175,27 @@
             }
         },
         {
+            "Key": "4180d04c-33c1-4511-a594-996934c77fe5",
+            "Value": {
+                "id": "7a669b04-e929-45d2-89ae-889f01698be9",
+                "resourcePath": "objects\\obj_coin\\obj_coin.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "43e8d1fc-05f8-42c0-ae0f-4d6601d8cb07",
             "Value": {
                 "id": "af223145-a1b2-48b6-aba0-9b39627c9fa4",
                 "resourcePath": "views\\43e8d1fc-05f8-42c0-ae0f-4d6601d8cb07.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "48dfa638-689c-47e7-a6ad-b206e1ba7017",
+            "Value": {
+                "id": "d477e9b9-508f-4041-9035-b3b452cfd9b6",
+                "resourcePath": "sprites\\spr_player_movement\\spr_player_movement.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

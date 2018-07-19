@@ -1,17 +1,17 @@
 
 if instance_exists(Player_obj){
-	if (distance_to_point(Player_obj.x, Player_obj.y) >= 100){
+	if (distance_to_point(Player_obj.x, Player_obj.y) >= 400){
 		move_towards_point(Player_obj.x, Player_obj.y, spd)
-	} else if (CheeseCooldown <= 100){
-		instance_create_layer(x,y, "Bullet_layer", obj_Cheese);
-		CheeseCooldown = 120
 	} else{
-		x=x;
-		y=y;
+		speed = 0;
 	}
+	 if (CheeseCooldown <= 0){
+		instance_create_layer(x,y, "Bullet_layer", obj_Cheese);
+		CheeseCooldown = 45;
+	 }
 } 
-CheeseCooldown -= 20
-if (hp <=0) instance_destroy();
-ratsummon = 120
-alarm[0] = ratsummon 
-ratsummon -= 10
+CheeseCooldown -= 1;
+if (hp <=0) {
+	effect_create_above(ef_firework, x, y, 20, c_red);
+	instance_destroy();
+}
