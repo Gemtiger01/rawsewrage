@@ -1,7 +1,7 @@
 ///Heals the player when picked up 
 with(other){
-	if (Player_obj.playerhealth > maxplayerhealth and Player_obj.playerhealth > 0) {
-		Player_obj.playerhealth = maxplayerhealth
+	if (playerhealth > maxplayerhealth and playerhealth > 0) {
+		playerhealth = maxplayerhealth
 	}
 	
 }

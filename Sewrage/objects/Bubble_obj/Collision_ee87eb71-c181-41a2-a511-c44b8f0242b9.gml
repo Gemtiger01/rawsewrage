@@ -1,7 +1,8 @@
 /// @description Insert description here
 with(other)
 {
-	ratenemy_obj.hp = ratenemy_obj.hp - 15;
+	hp = hp - 15;
 	
 }
-instance_destroy(Bubble_obj);
+effect_create_above(ef_firework, x, y, 20, c_blue);
+instance_destroy();
