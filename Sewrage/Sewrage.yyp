@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "a45e4fbd-c655-45b2-938b-0618d1f4897a",
+            "Value": {
+                "id": "cae1f1ef-9e74-41a1-8883-07b51bfc0d09",
+                "resourcePath": "sprites\\spr_crocogator\\spr_crocogator.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "6a2515ae-7345-4df8-8df0-9711d4a3f3b0",
