@@ -2,16 +2,10 @@
 ///range cooldown
 cooldown = 0;
 
-///walkingspeed
-globalvar walkingspeed;
-walkingspeed = 8
-
-///runningspeed
-globalvar runningspeed;
-runningspeed = 16
-
-globalvar shift;
-shift = false
+xdir = 0;
+ydir = 0;
+move_speed = 10;
+speed_multiplier = 1;
 
 hsp = 5
 vsp = 0
@@ -21,3 +15,5 @@ playerhealth = maxplayerhealth
 
 ///coin count 
 Money = 0 
+
+phy_fixed_rotation = true;
