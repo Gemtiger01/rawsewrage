@@ -17,3 +17,5 @@ playerhealth = maxplayerhealth
 Money = 0 
 
 phy_fixed_rotation = true;
+
+pool = ds_stack_create();

@@ -76,11 +76,10 @@ key_jump = keyboard_check_pressed(vk_space);
 /// Shooting
 if (mouse_check_button(mb_left)) and (cooldown < 1)
 {
-	instance_create_layer(x,y,"Bullet_layer",Bubble_obj);
-	instance_create_layer(x ,y +4,"Bullet_layer",Bubble_obj);
-	cooldown = 16
+	repeat 50 scr_shoot_bullet();
+	cooldown = 10;
 }
-cooldown = cooldown - 1
+cooldown--;
 
 /// player health 
 if (playerhealth >= maxplayerhealth)
@@ -94,4 +93,3 @@ if (playerhealth <= 0)
 //	instance_destroy();
 	game_restart();
 }
-
