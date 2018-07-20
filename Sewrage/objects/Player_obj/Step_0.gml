@@ -1,53 +1,75 @@
 /// @description Insert description here
+// You can write your code in this editor
+if (keyboard_check(ord("W")) or keyboard_check_pressed(vk_up)){
+	ydir = -1;
+}
+if (keyboard_check_released(ord("W")) or keyboard_check_released(vk_up)){
+	if (ydir == -1){
+		ydir = 0;
+	}
+}
 
-/// moving right 
-if keyboard_check(ord("D"))
-	{
-		if global.shift = true
-			{
-				x += global.runningspeed
-			}
-		else if global.shift = false
-			{
-				x += global.walkingspeed
-			}
+if (keyboard_check(ord("A")) or keyboard_check_pressed(vk_left)){
+	xdir = -1;
+}
+if (keyboard_check_released(ord("A")) or keyboard_check_released(vk_left)){
+	if (xdir == -1){
+		xdir = 0;
 	}
-/// moving left using global veriables	
-if keyboard_check(ord("A"))
-	{
-		if global.shift = true
-			{
-				x -= global.runningspeed
-			}
-		else if global.shift = false
-			{
-				x -= global.walkingspeed
-			}
+}
+
+if (keyboard_check_pressed(ord("S")) or keyboard_check_pressed(vk_down)){
+	ydir = 1;
+}
+if (keyboard_check_released(ord("S")) or keyboard_check_released(vk_down)){
+	if (ydir == 1){
+		ydir = 0;
 	}
-/// Moving up		
-if keyboard_check(ord("W"))
-	{
-		if global.shift = true
-			{
-				y -= global.runningspeed
-			}
-		else if global.shift = false
-			{
-				y -= global.walkingspeed
-			}
+}
+
+if (keyboard_check(ord("D")) or keyboard_check_pressed(vk_right)){
+	xdir = 1;
+}
+if (keyboard_check_released(ord("D")) or keyboard_check_released(vk_right)){
+	if (xdir == 1){
+		xdir = 0;
 	}
-/// moving down	
-if keyboard_check(ord("S"))
-	{
-		if global.shift = true
-			{
-				y += global.runningspeed
-			}
-		else if global.shift = false
-			{
-				y += global.walkingspeed
-			}
-	}
+}
+
+if (keyboard_check_pressed(vk_shift)){
+	speed_multiplier = 1.5;
+}
+if (keyboard_check_released(vk_shift)){
+	speed_multiplier = 1;
+}
+/*
+if (xdir == 1 and ydir == 1) {
+	phy_rotation = 315;
+}else if (xdir == 0 and ydir == 1){
+	phy_rotation = 270;
+}else if (xdir == -1 and ydir == 1){
+	phy_rotation = 225;
+}else if (xdir == -1 and ydir == 0){
+	phy_rotation = 180;
+}else if (xdir == -1 and ydir == -1){
+	phy_rotation = 135;
+}else if (xdir == 0 and ydir == -1){
+	phy_rotation = 90;
+}else if (xdir == 1 and ydir == -1){
+	phy_rotation = 45;
+}else if (xdir == 1 and ydir == 0){
+	phy_rotation = 0;
+}*/
+
+if ((xdir == 0 and ydir == 0)) {
+	phy_speed_x = 0;
+	phy_speed_y = 0;
+}else{
+	phy_speed_x = (move_speed * speed_multiplier) * xdir;
+	phy_speed_y = (move_speed * speed_multiplier) * ydir;
+}
+
+
 /// Jumpping
 key_jump = keyboard_check_pressed(vk_space);
 
@@ -69,7 +91,7 @@ if (playerhealth >= maxplayerhealth)
 ///death
 if (playerhealth <= 0)
 {
-	instance_destroy();
+//	instance_destroy();
 	game_restart();
 }
 

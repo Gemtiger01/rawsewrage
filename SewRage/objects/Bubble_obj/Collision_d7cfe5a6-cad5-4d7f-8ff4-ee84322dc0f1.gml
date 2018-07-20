@@ -1,8 +1,4 @@
 /// @description Insert description here
-with(other)
-{
-	hp = hp - 15;
-	
-}
+// You can write your code in this editor
 effect_create_above(ef_firework, x, y, 20, c_aqua);
 instance_destroy();

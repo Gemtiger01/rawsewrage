@@ -1,9 +1,12 @@
 
 if instance_exists(Player_obj){
 	if (distance_to_point(Player_obj.x, Player_obj.y) >= 400){
-		move_towards_point(Player_obj.x, Player_obj.y, spd)
+		dir = point_direction(x,y,Player_obj.x,Player_obj.y);
+		phy_speed_x = lengthdir_x(spd,dir);
+		phy_speed_y = lengthdir_y(spd,dir);
 	} else{
-		speed = 0;
+		phy_speed_x = 0;
+		phy_speed_y = 0;
 	}
 	 if (CheeseCooldown <= 0){
 		instance_create_layer(x,y, "Bullet_layer", obj_Cheese);

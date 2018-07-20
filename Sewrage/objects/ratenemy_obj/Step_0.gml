@@ -1,7 +1,9 @@
 /// @description Insert description here
 if (instance_exists(Player_obj))
 {
-		move_towards_point(Player_obj.x, Player_obj.y, spd);
+		dir = point_direction(x,y,Player_obj.x,Player_obj.y);
+		phy_speed_x = lengthdir_x(spd,dir);
+		phy_speed_y = lengthdir_y(spd,dir);
 }
 
 

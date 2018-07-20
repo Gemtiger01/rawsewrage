@@ -3,4 +3,4 @@ with(other)
 {
 	playerhealth -=	25	
 }
-instance_destroy();
+hp=0;
