@@ -5,13 +5,23 @@
     "name": "obj_stretchy_wall",
     "eventList": [
         {
-            "id": "7d095c57-bcfe-4a05-8728-d8ec5fcf2d67",
+            "id": "ca9ba927-d927-45bb-b940-6fe5223c85fb",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "cd5d0310-a153-48ce-8858-e5d9fc86e54b",
             "enumb": 0,
             "eventtype": 4,
+            "m_owner": "d55f4872-ac36-4b24-845c-df807dbce31d"
+        },
+        {
+            "id": "671305a0-b73c-42ca-bf2e-ff99aa0dae8d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
             "m_owner": "d55f4872-ac36-4b24-845c-df807dbce31d"
         }
     ],
@@ -31,28 +41,28 @@
     "physicsShape": 1,
     "physicsShapePoints": [
         {
-            "id": "49e78075-507a-4d41-9e42-319504e5c1d7",
+            "id": "af6f4845-b27d-451b-aecb-c14f68c5402d",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 0,
             "y": 0
         },
         {
-            "id": "f4099a98-53c7-42c0-b244-4ec1e16d3960",
+            "id": "3d4f5501-3b0a-495b-b549-4ebcfeab3f92",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 64,
             "y": 0
         },
         {
-            "id": "d1b603ee-7421-42fa-8440-fa7dd3665fd1",
+            "id": "f310c6ba-197a-4105-b76a-fbec0be5c3e4",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 64,
             "y": 64
         },
         {
-            "id": "4b7b0bfd-ef31-47bf-9b96-bf5ca47e6156",
+            "id": "150c923e-ee42-4257-b425-23c0808a28de",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 0,
