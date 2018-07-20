@@ -82,7 +82,7 @@ if (mouse_check_button(mb_left)) and (cooldown < 1)
 cooldown--;
 
 /// player health 
-if (playerhealth >= maxplayerhealth)
+if (playerhealth > maxplayerhealth)
 {
 	playerhealth = maxplayerhealth;
 }
