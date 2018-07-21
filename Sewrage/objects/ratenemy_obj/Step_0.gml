@@ -14,6 +14,10 @@
 //}
 
 if (hp <= 0){
+	var Lootdrop = random(100)
+	if (Lootdrop <= 50){
+		instance_create_layer(x,y,"Instances", obj_bandage)
+	}
 	effect_create_above(ef_firework, x, y, 20, c_red);
 	instance_destroy();
 }
