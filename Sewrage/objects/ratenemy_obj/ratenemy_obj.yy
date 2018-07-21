@@ -123,7 +123,7 @@
     "physicsDensity": 0.5,
     "physicsFriction": 0,
     "physicsGroup": 0,
-    "physicsKinematic": true,
+    "physicsKinematic": false,
     "physicsLinearDamping": 0.1,
     "physicsObject": true,
     "physicsRestitution": 0.1,
@@ -147,7 +147,7 @@
     ],
     "physicsStartAwake": true,
     "properties": null,
-    "solid": false,
+    "solid": true,
     "spriteId": "4931a9d0-1049-4819-9b1d-85d88e4064de",
     "visible": true
 }

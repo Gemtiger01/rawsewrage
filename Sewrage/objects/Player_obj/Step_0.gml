@@ -94,7 +94,10 @@ if (playerhealth <= 0)
 	game_restart();
 }
 
-if (place_meeting(phy_position_x + (xdir * 128),phy_position_y + (ydir * 128),obj_stretchy_water)){
+var centerX = x - sprite_get_xoffset(sprite_index) + sprite_width / 2;
+var centerY = y - sprite_get_yoffset(sprite_index) + sprite_height / 2;
+
+if (collision_point( centerX, centerY, obj_stretchy_water, false, true )){
 	sprite_index = spr_player_water;
 } else {
 	sprite_index = spr_player;
