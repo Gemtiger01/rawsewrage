@@ -93,3 +93,9 @@ if (playerhealth <= 0)
 //	instance_destroy();
 	game_restart();
 }
+
+if (place_meeting(phy_position_x + (xdir * 128),phy_position_y + (ydir * 128),obj_stretchy_water)){
+	sprite_index = spr_player_water;
+} else {
+	sprite_index = spr_player;
+}

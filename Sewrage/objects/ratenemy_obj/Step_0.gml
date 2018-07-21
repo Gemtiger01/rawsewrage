@@ -1,11 +1,17 @@
 /// @description Insert description here
-if (instance_exists(Player_obj))
-{
-		dir = point_direction(x,y,Player_obj.x,Player_obj.y);
-		phy_speed_x = lengthdir_x(spd,dir);
-		phy_speed_y = lengthdir_y(spd,dir);
-}
+//if (instance_exists(Player_obj))
+//{
+//	if (target_pos_x == -1){
+//		target_pos_x = Player_obj.x;
+//		target_pos_y = Player_obj.y;
+//	}
 
+//	if (target_pos_x != Player_obj.x or target_pos_y != Player_obj.y){
+//		path = path_add();
+//		mp_potential_path_object(path, obj_Player.x, obj_Player.y, 3, 4, obj_Wall);
+//		path_start(path, 3, 0, 0);
+//	}
+//}
 
 if (hp <= 0){
 	effect_create_above(ef_firework, x, y, 20, c_red);

@@ -1,6 +1,8 @@
 ///hps
 maxhp = 250;
 hp = maxhp
+path = path_add();
+alarm_set(1,1);
 
 spd = 6
 
