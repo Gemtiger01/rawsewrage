@@ -1,6 +1,6 @@
 /// @description Insert description here
 path = path_add();
-alarm_set(1,1);
+alarm_set(1,10);
 
 maxhp = 50;
 hp = maxhp;
