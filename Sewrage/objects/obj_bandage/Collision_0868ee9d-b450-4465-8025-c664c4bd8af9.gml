@@ -1,10 +1,5 @@
 ///Heals the player when picked up 
 with(other){
-	if (playerhealth > maxplayerhealth and playerhealth > 0) {
-		playerhealth = maxplayerhealth
-	}
-	
+		playerhealth += 25;
 }
-with(self){
-	instance_destroy();
-}
+instance_destroy();
