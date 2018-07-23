@@ -2,7 +2,7 @@ if (ds_stack_empty(pool))
 {
 	//If not, we need to create a new instance. No performance gain.
 	if (instance_number(Bubble_obj) <= 500){
-		instance_create_layer(x,y,"Instances",Bubble_obj);
+		instance_create_layer(-100,-100,"Instances",Bubble_obj);
 	}
 }
 else

@@ -14,6 +14,6 @@ if (hp <=0) {
 		instance_create_layer(x,y,"Instances", obj_coin)
 		instance_create_layer(x,y,"Instances", obj_coin)
 	}
-	effect_create_above(ef_firework, x, y, 20, c_red);
+	effect_create_above(ef_star, x, y, 3, c_red);
 	instance_destroy();
 }
