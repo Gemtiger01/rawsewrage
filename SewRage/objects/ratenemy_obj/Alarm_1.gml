@@ -12,4 +12,4 @@ if (mp_grid_path(global.grid, path, x, y, Player_obj.phy_position_x, Player_obj.
 	phy_speed_x = 0;
 	phy_speed_y = 0;
 }
-alarm_set(1,10);
+alarm_set(1,20);

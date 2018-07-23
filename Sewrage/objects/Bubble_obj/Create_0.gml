@@ -1,2 +1,2 @@
 scr_set_bullet_trajectory()
-damage = 1;
+damage = 10;
