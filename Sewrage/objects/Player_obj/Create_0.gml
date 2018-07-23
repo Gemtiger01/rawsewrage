@@ -4,7 +4,7 @@ cooldown = 0;
 
 xdir = 0;
 ydir = 0;
-move_speed = 10;
+move_speed = 5;
 speed_multiplier = 1;
 
 hsp = 5
@@ -19,3 +19,5 @@ Money = 0
 phy_fixed_rotation = true;
 
 pool = ds_stack_create();
+
+persistent = true;

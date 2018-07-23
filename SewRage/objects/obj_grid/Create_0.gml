@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-cell_width = 96;
-cell_height = 96;
+cell_width = 16;
+cell_height = 16;
 
 hcells = room_width div cell_width;
 vcells = room_height div cell_height;

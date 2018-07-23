@@ -76,8 +76,8 @@ key_jump = keyboard_check_pressed(vk_space);
 /// Shooting
 if (mouse_check_button(mb_left)) and (cooldown < 1)
 {
-	repeat 50 scr_shoot_bullet();
-	cooldown = 10;
+	repeat 3 scr_shoot_bullet();
+	cooldown = 20;
 }
 cooldown--;
 
