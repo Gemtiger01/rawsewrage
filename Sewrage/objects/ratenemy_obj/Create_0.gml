@@ -1,11 +1,11 @@
 /// @description Insert description here
 path = path_add();
-alarm_set(1,10);
+alarm_set(1,20);
 
 maxhp = 50;
 hp = maxhp;
 ///adds the basic enemy speed 
-spd = max(8, random(10));
+spd = max(2, random(5));
 
 phy_fixed_rotation = true;
 
