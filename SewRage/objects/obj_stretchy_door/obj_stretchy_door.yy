@@ -72,7 +72,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "level",
+            "varName": "target_level",
             "varType": 1
         },
         {
