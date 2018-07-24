@@ -4,7 +4,7 @@ cooldown = 0;
 
 xdir = 0;
 ydir = 0;
-move_speed = 5;
+move_speed = 2;
 speed_multiplier = 1;
 
 hsp = 5
