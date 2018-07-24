@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "14926a23-c5c0-47ac-8cfe-a47306a773a5",
+            "Value": {
+                "id": "eecb8984-2783-4da5-9559-eedd1fdebb7b",
+                "resourcePath": "tilesets\\tls_sewer\\tls_sewer.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "14d426e6-f174-4853-b96c-d7644574f592",
             "Value": {
                 "id": "c64712ce-3e05-4b5c-a632-7e43433eb98d",
@@ -131,6 +139,14 @@
             "Value": {
                 "id": "fb09f9b8-0576-4fa0-b1ef-54d6d9a5a312",
                 "resourcePath": "sprites\\spr_player\\spr_player.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "27209687-b99f-4e63-92f9-74a1677d8476",
+            "Value": {
+                "id": "48fe2f92-3b85-4c90-b870-540eacac181e",
+                "resourcePath": "sprites\\spr_sewage\\spr_sewage.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -287,6 +303,14 @@
             }
         },
         {
+            "Key": "605a4be0-7806-40e9-a86f-01be1b86e776",
+            "Value": {
+                "id": "0b042c4e-4273-440f-ac8c-0dd64ffc850b",
+                "resourcePath": "rooms\\rm_test\\rm_test.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "610f67b8-2d2d-4ec3-ab91-91df3d2ca11c",
             "Value": {
                 "id": "d4ad1b6b-5dc9-4fe2-beff-17a1ff1aab60",
@@ -359,6 +383,14 @@
             }
         },
         {
+            "Key": "9899d2ca-2c10-4b4b-bec4-9e2c34ca0d92",
+            "Value": {
+                "id": "dba59906-a495-4676-9ca1-3a6fbfae38c7",
+                "resourcePath": "tilesets\\tls_sewer2\\tls_sewer2.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "9cd21526-6d96-4940-9ecd-1bbc0736b32f",
             "Value": {
                 "id": "8795a920-677a-4ec6-b337-bec2acfe6092",
@@ -372,6 +404,14 @@
                 "id": "2d8e0fcb-66d8-4b43-affb-6ab15bc41009",
                 "resourcePath": "objects\\obj_stretchy_door\\obj_stretchy_door.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a019420b-0a69-4929-8002-76654b7fd025",
+            "Value": {
+                "id": "22586693-728c-4ce5-9c37-b729ea8bfe53",
+                "resourcePath": "sprites\\spr_sewer_tiles3\\spr_sewer_tiles3.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -431,6 +471,14 @@
             }
         },
         {
+            "Key": "b5277cd0-454b-4cd6-a422-5c3e8ff2ad87",
+            "Value": {
+                "id": "5601fd52-9843-4f19-81b3-fc106f74ff29",
+                "resourcePath": "sprites\\spr_light_circle\\spr_light_circle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b7fa9c2c-abf4-470d-b8de-009f163c7de0",
             "Value": {
                 "id": "dc121299-d881-42c2-b8eb-f514185096bc",
@@ -452,6 +500,14 @@
                 "id": "15f96632-1ddf-4a28-816e-788f40d54d9e",
                 "resourcePath": "views\\c0528a70-e344-444c-ac00-2f5d75813250.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c6bb9f32-7930-4657-bcb5-fd75d71744c5",
+            "Value": {
+                "id": "27edf1ec-a876-4a0f-88c1-31d818056cad",
+                "resourcePath": "tilesets\\tls_sewer3\\tls_sewer3.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -484,6 +540,14 @@
                 "id": "9b5c97eb-81af-4175-9b1a-c214c2584620",
                 "resourcePath": "scripts\\scr_shoot_bullet\\scr_shoot_bullet.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d15516a4-2560-439d-8618-8db2a724b472",
+            "Value": {
+                "id": "74be6827-b69a-4a8d-9a2f-27c89684dcbb",
+                "resourcePath": "objects\\obj_lightsource\\obj_lightsource.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -543,11 +607,27 @@
             }
         },
         {
+            "Key": "dce20e1d-3992-47b7-97ea-17ce285036fe",
+            "Value": {
+                "id": "87929ccf-2ed0-4018-b4df-0fd6cd590a40",
+                "resourcePath": "sprites\\spr_sewer_tiles2\\spr_sewer_tiles2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "de91ceed-6bca-4dd4-a6a5-d3b266cfdba8",
             "Value": {
                 "id": "b71f63e8-c1c8-4881-8479-290764beec8a",
                 "resourcePath": "sprites\\spr_superborder\\spr_superborder.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e04eb5fa-af4c-41a1-b0a1-8e981caf13b8",
+            "Value": {
+                "id": "d8b44b7f-acb1-4997-9d81-38bb4c324967",
+                "resourcePath": "tilesets\\tls_sewage\\tls_sewage.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -571,6 +651,14 @@
             "Value": {
                 "id": "a960c7ec-8491-4600-bc8d-4064ed2ae8f1",
                 "resourcePath": "sprites\\spr_pipe\\spr_pipe.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e6503ea1-f8c6-4625-a7ab-e3bedb645b4c",
+            "Value": {
+                "id": "51d78dc7-0d25-41a2-8b9a-24dd3c69b713",
+                "resourcePath": "sprites\\spr_sewer_tiles\\spr_sewer_tiles.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -612,6 +700,14 @@
                 "id": "5779cf19-9d75-4a83-a46f-289aedb14a7d",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f489fed7-50a4-4641-ae5b-a87ab2d4d12e",
+            "Value": {
+                "id": "18abf9b2-7875-45fa-9b7d-740c675acd56",
+                "resourcePath": "objects\\obj_light_ctrl\\obj_light_ctrl.yy",
+                "resourceType": "GMObject"
             }
         },
         {
