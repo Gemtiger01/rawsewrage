@@ -455,6 +455,14 @@
             }
         },
         {
+            "Key": "beb129f5-44f5-4a0f-915a-23a8220e60e5",
+            "Value": {
+                "id": "fd2e0962-773d-44f8-bc4d-8eb5fffba520",
+                "resourcePath": "sprites\\spr_cheese_explosion\\spr_cheese_explosion.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c0528a70-e344-444c-ac00-2f5d75813250",
             "Value": {
                 "id": "15f96632-1ddf-4a28-816e-788f40d54d9e",
