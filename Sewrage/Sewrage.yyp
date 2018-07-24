@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "3d23f023-d8dc-423f-8659-8e92f68a9b03",
+            "Value": {
+                "id": "d1484ab2-39fb-4dd8-bb19-38cc4f5a9bd5",
+                "resourcePath": "sprites\\spri_poison_water\\spri_poison_water.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3f871b38-f5ab-472f-ba9d-46e6726d7647",
             "Value": {
                 "id": "7f702284-eae3-4208-b6d3-d0a05de8150f",
@@ -603,6 +611,14 @@
             "Value": {
                 "id": "87dfa92c-4997-48bb-a4ad-a0a97bee7fa8",
                 "resourcePath": "objects\\obj_grid\\obj_grid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f1998c6b-1fc8-4759-acd6-bc428f45c5f3",
+            "Value": {
+                "id": "b362c598-9d01-4892-9bc9-6164be0271db",
+                "resourcePath": "objects\\obj_stretchy_poison\\obj_stretchy_poison.yy",
                 "resourceType": "GMObject"
             }
         },
