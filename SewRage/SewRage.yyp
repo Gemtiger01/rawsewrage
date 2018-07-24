@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "366a2a74-0412-4161-a290-699ec05bf3af",
+            "Value": {
+                "id": "21cf16d8-62c2-4a79-a4c9-29364624deb4",
+                "resourcePath": "sprites\\spr_levelperfect\\spr_levelperfect.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "37a90c7b-04c0-41b4-9162-9a7392f36cce",
             "Value": {
                 "id": "54d3b667-bf33-4ee0-8b86-32c52c942512",

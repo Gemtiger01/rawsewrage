@@ -1,3 +1,8 @@
+cooldown = 100
 with (self){
-	playerhealth -= 20;
+	if cooldown == 100 {
+		playerhealth -= 3
+		cooldown = 300
+	}
 }
+cooldown -= .5
