@@ -123,8 +123,8 @@ if (playerhealth <= 0)
 var centerX = x - sprite_get_xoffset(sprite_index) + sprite_width / 2;
 var centerY = y - sprite_get_yoffset(sprite_index) + sprite_height / 2;
 
-if (collision_point( centerX, centerY, obj_stretchy_water, false, true )){
+if (collision_point( x, y, obj_stretchy_water, false, true )){
 	sprite_index = spr_player_water;
 } else {
-	sprite_index = spr_player;
+	sprite_index = spr_player_2;
 }
