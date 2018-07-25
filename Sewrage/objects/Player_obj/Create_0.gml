@@ -6,6 +6,7 @@ if (instance_number(Player_obj)>1){
 }
 
 
+
 cooldown = 0;
 
 xdir = 0;
