@@ -136,3 +136,6 @@ if (collision_point( x, y, obj_stretchy_water, false, true )){
 //	view_set_wport(0, 1280);
 //	view_set_hport(0, 720);
 //}
+
+draw_set_colour(c_red);
+physics_draw_debug();
