@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "10e4c59b-ea08-411e-af10-a0058a4259b4",
+            "Value": {
+                "id": "6530d09a-f10c-4a08-85f7-b79cf83b9f98",
+                "resourcePath": "rooms\\rm_tutoral\\rm_tutoral.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "11acefb8-84bf-4a7f-8140-c9e751ba2f24",
             "Value": {
                 "id": "dc12a7e1-7946-43c1-a1b3-6075e4d30b6b",
@@ -215,6 +223,14 @@
             }
         },
         {
+            "Key": "380a7b7e-5e11-44e2-8eba-3185d3131cef",
+            "Value": {
+                "id": "2559c0c8-6f0e-4618-9aeb-ff222705212f",
+                "resourcePath": "objects\\obj_pressenter\\obj_pressenter.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "38c6c9af-50b6-41c4-b8e8-c3ced100fd7a",
             "Value": {
                 "id": "dc2c2df5-5ce1-4391-88f1-018a36b2b0e7",
@@ -259,6 +275,14 @@
             "Value": {
                 "id": "7a669b04-e929-45d2-89ae-889f01698be9",
                 "resourcePath": "objects\\obj_coin\\obj_coin.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "42682bf1-d666-430a-87ab-68c52962b246",
+            "Value": {
+                "id": "11c6f3b1-bf84-4315-86eb-b0a0d5cde9f9",
+                "resourcePath": "objects\\obj_tutorial\\obj_tutorial.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -315,6 +339,14 @@
             "Value": {
                 "id": "9c756b80-4790-4577-a468-4b4857003a9e",
                 "resourcePath": "objects\\obj_itemspawn\\obj_itemspawn.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5c657e0e-6645-4a03-9aba-635dfa86c3fc",
+            "Value": {
+                "id": "b15e8b33-a168-40a1-887d-450fc7846b8b",
+                "resourcePath": "objects\\obj_titalscreen\\obj_titalscreen.yy",
                 "resourceType": "GMObject"
             }
         },
