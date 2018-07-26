@@ -362,7 +362,7 @@
             "Key": "74976647-996f-4e02-b304-1370f8835335",
             "Value": {
                 "id": "cdea08cf-4744-4017-8bcd-625f7da0786d",
-                "resourcePath": "sprites\\sprite41\\sprite41.yy",
+                "resourcePath": "sprites\\spr_controls\\spr_controls.yy",
                 "resourceType": "GMSprite"
             }
         },
