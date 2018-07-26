@@ -343,6 +343,14 @@
             }
         },
         {
+            "Key": "5606e09a-5304-40fa-9d5e-7ce19f6de2e1",
+            "Value": {
+                "id": "73423c1c-11e5-4cd2-9a89-88ce61572102",
+                "resourcePath": "sprites\\spr_player_water\\spr_player_water.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "59a79a94-a669-4381-9997-2a71dc98083a",
             "Value": {
                 "id": "9c756b80-4790-4577-a468-4b4857003a9e",
@@ -459,14 +467,6 @@
             "Value": {
                 "id": "d59ae65e-19d2-4b94-a944-43885efc50dc",
                 "resourcePath": "sprites\\spr_Cheese\\spr_Cheese.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "91697145-5821-4d05-9551-401b346c2f55",
-            "Value": {
-                "id": "8f7cd8d0-75b2-408f-bfc8-556f610ff512",
-                "resourcePath": "sprites\\spr_player_water\\spr_player_water.yy",
                 "resourceType": "GMSprite"
             }
         },
