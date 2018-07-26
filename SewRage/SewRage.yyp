@@ -343,11 +343,27 @@
             }
         },
         {
+            "Key": "5606e09a-5304-40fa-9d5e-7ce19f6de2e1",
+            "Value": {
+                "id": "73423c1c-11e5-4cd2-9a89-88ce61572102",
+                "resourcePath": "sprites\\spr_player_water\\spr_player_water.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "59a79a94-a669-4381-9997-2a71dc98083a",
             "Value": {
                 "id": "9c756b80-4790-4577-a468-4b4857003a9e",
                 "resourcePath": "objects\\obj_itemspawn\\obj_itemspawn.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5aa845f3-055b-41c8-bf49-20dafe0b9496",
+            "Value": {
+                "id": "21d7bb6a-56b9-4251-961a-d0d20af3359b",
+                "resourcePath": "sprites\\spr_gate_down_2\\spr_gate_down_2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -407,6 +423,14 @@
             }
         },
         {
+            "Key": "784b6cfe-0d4c-4643-af38-7783e6e63ece",
+            "Value": {
+                "id": "76a34e18-1946-452d-bc02-292c87ab6b64",
+                "resourcePath": "sprites\\spr_player_up\\spr_player_up.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "78759e19-3f72-4f21-b778-12cba1b6722f",
             "Value": {
                 "id": "98727534-97e4-4f31-b3b5-f14e51c2fce8",
@@ -459,14 +483,6 @@
             "Value": {
                 "id": "d59ae65e-19d2-4b94-a944-43885efc50dc",
                 "resourcePath": "sprites\\spr_Cheese\\spr_Cheese.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "91697145-5821-4d05-9551-401b346c2f55",
-            "Value": {
-                "id": "8f7cd8d0-75b2-408f-bfc8-556f610ff512",
-                "resourcePath": "sprites\\spr_player_water\\spr_player_water.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -804,6 +820,14 @@
                 "id": "b362c598-9d01-4892-9bc9-6164be0271db",
                 "resourcePath": "objects\\obj_stretchy_poison\\obj_stretchy_poison.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f2535784-dc0a-4bc7-8295-56e49adbce90",
+            "Value": {
+                "id": "e3e975b7-58fa-4735-8947-1aaf5e87de9a",
+                "resourcePath": "sprites\\spr_gate_down\\spr_gate_down.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
