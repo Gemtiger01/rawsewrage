@@ -407,6 +407,14 @@
             }
         },
         {
+            "Key": "71c98540-064f-4ef4-9db2-24c5221315ae",
+            "Value": {
+                "id": "c389c169-ee73-4246-a58c-4b85dd52a10a",
+                "resourcePath": "sprites\\spr_player_down\\spr_player_down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "73ae5e7a-a648-473a-ac5a-6938d9add20e",
             "Value": {
                 "id": "948e7990-bba5-46d4-b1aa-e4b239e19fdd",
