@@ -1,4 +1,4 @@
 /// @description Insert description here
-instance_create_layer(random(room_width),random(room_height),"Instances", ratenemy_obj); 
+instance_create_layer(x,y,"Instances", ratenemy_obj); 
 alarm[0] = 120;
 
