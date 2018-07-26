@@ -6,11 +6,11 @@
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 63,
-    "bbox_left": 7,
-    "bbox_right": 60,
-    "bbox_top": 0,
-    "bboxmode": 0,
+    "bbox_bottom": 44,
+    "bbox_left": 17,
+    "bbox_right": 44,
+    "bbox_top": 25,
+    "bboxmode": 2,
     "colkind": 1,
     "coltolerance": 0,
     "edgeFiltering": false,
@@ -310,7 +310,7 @@
             "mvc": "1.0",
             "SpriteId": "803d0fa2-4925-491d-a996-d329bad62211",
             "blendMode": 0,
-            "isLocked": false,
+            "isLocked": true,
             "name": "Layer 5",
             "opacity": 100,
             "visible": true
@@ -321,7 +321,7 @@
             "mvc": "1.0",
             "SpriteId": "803d0fa2-4925-491d-a996-d329bad62211",
             "blendMode": 0,
-            "isLocked": false,
+            "isLocked": true,
             "name": "Layer 4",
             "opacity": 100,
             "visible": true
@@ -332,7 +332,7 @@
             "mvc": "1.0",
             "SpriteId": "803d0fa2-4925-491d-a996-d329bad62211",
             "blendMode": 0,
-            "isLocked": false,
+            "isLocked": true,
             "name": "Layer 6",
             "opacity": 100,
             "visible": true
@@ -343,7 +343,7 @@
             "mvc": "1.0",
             "SpriteId": "803d0fa2-4925-491d-a996-d329bad62211",
             "blendMode": 0,
-            "isLocked": false,
+            "isLocked": true,
             "name": "Layer 2",
             "opacity": 100,
             "visible": true
@@ -354,7 +354,7 @@
             "mvc": "1.0",
             "SpriteId": "803d0fa2-4925-491d-a996-d329bad62211",
             "blendMode": 0,
-            "isLocked": false,
+            "isLocked": true,
             "name": "Layer 3",
             "opacity": 100,
             "visible": true
@@ -365,7 +365,7 @@
             "mvc": "1.0",
             "SpriteId": "803d0fa2-4925-491d-a996-d329bad62211",
             "blendMode": 0,
-            "isLocked": false,
+            "isLocked": true,
             "name": "Layer 10",
             "opacity": 34,
             "visible": true
@@ -376,7 +376,7 @@
             "mvc": "1.0",
             "SpriteId": "803d0fa2-4925-491d-a996-d329bad62211",
             "blendMode": 0,
-            "isLocked": false,
+            "isLocked": true,
             "name": "Layer 9",
             "opacity": 100,
             "visible": true
@@ -387,7 +387,7 @@
             "mvc": "1.0",
             "SpriteId": "803d0fa2-4925-491d-a996-d329bad62211",
             "blendMode": 0,
-            "isLocked": false,
+            "isLocked": true,
             "name": "default",
             "opacity": 100,
             "visible": true
