@@ -5,7 +5,7 @@ if (instance_number(Player_obj)>1){
 	instance_destroy();
 }
 
-
+last_xscale = image_xscale;
 
 cooldown = 0;
 

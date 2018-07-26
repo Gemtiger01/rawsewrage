@@ -10,3 +10,4 @@ if (phy_position_x == phy_position_xprevious and phy_position_y == phy_position_
 } else {
 	image_speed = speed_multiplier;
 }
+last_xscale = image_xscale;
