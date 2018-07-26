@@ -9,4 +9,6 @@ draw_text_transformed_color(x,y-51,life_disp,1,1,0,c_black,c_black,c_black,c_bla
 draw_text_transformed_color(x-1,y-50,life_disp,1,1,0,c_black,c_black,c_black,c_black,1);
 draw_text_transformed_color(x+1,y-50,life_disp,1,1,0,c_black,c_black,c_black,c_black,1);
 draw_text_transformed_color(x,y-50,life_disp,1,1,0,c_red,c_red,c_maroon,c_maroon,1);
+draw_set_colour(c_red);
+physics_draw_debug();
 draw_self();
