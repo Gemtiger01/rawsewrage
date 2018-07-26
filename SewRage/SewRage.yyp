@@ -807,6 +807,14 @@
             }
         },
         {
+            "Key": "e76673d5-eb27-420b-b7af-b7de686f1d38",
+            "Value": {
+                "id": "460b39e7-f5b9-4161-9821-58edb21891c1",
+                "resourcePath": "objects\\obj_gate_closed\\obj_gate_closed.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ea31c6fc-7b7c-4971-8af4-f918a95a1418",
             "Value": {
                 "id": "63bdd970-1393-44ac-b449-d17de73c293f",

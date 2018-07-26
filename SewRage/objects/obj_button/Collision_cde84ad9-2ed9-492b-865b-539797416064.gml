@@ -1,2 +1,2 @@
 instance_destroy(self);
-instance_destroy(obj_gate);
+instance_change(obj_gate, obj_gate_closed);
