@@ -503,11 +503,27 @@
             }
         },
         {
+            "Key": "8265eb54-d0e9-4297-aa9a-b3478fe51624",
+            "Value": {
+                "id": "af96ec5e-b025-476e-8dee-4db37014aced",
+                "resourcePath": "sprites\\spr_sewer_tiles3_tint\\spr_sewer_tiles3_tint.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "83c0b376-022c-4c5b-b9b0-8ef016276cd9",
             "Value": {
                 "id": "74ccb06d-b556-4a38-aeb2-afdaf5935329",
                 "resourcePath": "sprites\\spr_levelone1\\spr_levelone1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "85b7923d-e1db-4fc3-977e-85f65df155c3",
+            "Value": {
+                "id": "7aca79b5-50e6-4462-b194-04706fa8b932",
+                "resourcePath": "tilesets\\tls_sewer_tint\\tls_sewer_tint.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -727,11 +743,27 @@
             }
         },
         {
+            "Key": "d592794c-1d5a-4209-9828-593a938ab6f3",
+            "Value": {
+                "id": "bc0dc4c1-a937-4e5e-b546-94845adb5e60",
+                "resourcePath": "tilesets\\tls_sewer3_tint\\tls_sewer3_tint.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "d68a07d6-cb4d-4c7b-99b6-2d717d65378f",
             "Value": {
                 "id": "f4f3b51d-ac2e-4da1-bbf1-a95ef0ae5bce",
                 "resourcePath": "objects\\obj_stretchy_water\\obj_stretchy_water.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d9df9281-d596-4838-8527-8a6efc38d05a",
+            "Value": {
+                "id": "015ff43f-f171-4e10-ad85-2a36cc7689d8",
+                "resourcePath": "sprites\\spr_sewer_tiles_tint\\spr_sewer_tiles_tint.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
