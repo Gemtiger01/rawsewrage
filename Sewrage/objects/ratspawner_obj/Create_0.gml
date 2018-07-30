@@ -1,3 +1,3 @@
 /// @description Insert description here
-spawnrate = 120;
+spawnrate = 480;
 alarm[0] = spawnrate; 

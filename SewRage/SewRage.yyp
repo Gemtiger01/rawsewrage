@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "33c36bd8-bd11-4b74-b0f9-877ca9882fad",
+            "Value": {
+                "id": "6d9afc4c-644f-4034-a43e-8359c2e1fe04",
+                "resourcePath": "sounds\\sound_dripping\\sound_dripping.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "35e6084f-c516-4c53-b030-a61d1d531759",
             "Value": {
                 "id": "5dc36794-05a6-4be3-9300-aae51634f7e5",
@@ -348,6 +356,14 @@
                 "id": "9e10fefb-9c08-4703-99e7-9321dc7d419e",
                 "resourcePath": "sprites\\spr_button\\spr_button.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5425e80f-735e-4766-b648-ef74edb3c778",
+            "Value": {
+                "id": "c490756c-488f-4550-ba29-b3a5668ac2e3",
+                "resourcePath": "sounds\\sound_background\\sound_background.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -663,6 +679,14 @@
             }
         },
         {
+            "Key": "c2b135d9-d13b-4704-a014-c42731bf5906",
+            "Value": {
+                "id": "8bdc70af-83a4-403b-b9ce-f3eb4f05151a",
+                "resourcePath": "objects\\obj_music\\obj_music.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c6bb9f32-7930-4657-bcb5-fd75d71744c5",
             "Value": {
                 "id": "27edf1ec-a876-4a0f-88c1-31d818056cad",
@@ -827,6 +851,14 @@
             "Value": {
                 "id": "b28a58c8-84e5-4c7d-a2d4-a9f0c016e65b",
                 "resourcePath": "objects\\obj_bandage\\obj_bandage.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e2aaeab5-c279-4267-87f7-e8b3b6fec6fe",
+            "Value": {
+                "id": "70961814-fe63-4a8b-86ad-3e153acf0d0c",
+                "resourcePath": "objects\\obj_waterdripping\\obj_waterdripping.yy",
                 "resourceType": "GMObject"
             }
         },
