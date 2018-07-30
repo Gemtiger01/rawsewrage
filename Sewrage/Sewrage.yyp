@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "382c3d17-4693-4e54-8c4b-00afde4b5365",
+            "Value": {
+                "id": "139e4a45-7b9c-41c7-83e6-35e19a360ab7",
+                "resourcePath": "rooms\\rm_test2\\rm_test2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "38c6c9af-50b6-41c4-b8e8-c3ced100fd7a",
             "Value": {
                 "id": "dc2c2df5-5ce1-4391-88f1-018a36b2b0e7",
@@ -495,11 +503,27 @@
             }
         },
         {
+            "Key": "8265eb54-d0e9-4297-aa9a-b3478fe51624",
+            "Value": {
+                "id": "af96ec5e-b025-476e-8dee-4db37014aced",
+                "resourcePath": "sprites\\spr_sewer_tiles3_tint\\spr_sewer_tiles3_tint.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "83c0b376-022c-4c5b-b9b0-8ef016276cd9",
             "Value": {
                 "id": "74ccb06d-b556-4a38-aeb2-afdaf5935329",
                 "resourcePath": "sprites\\spr_levelone1\\spr_levelone1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "85b7923d-e1db-4fc3-977e-85f65df155c3",
+            "Value": {
+                "id": "7aca79b5-50e6-4462-b194-04706fa8b932",
+                "resourcePath": "tilesets\\tls_sewer_tint\\tls_sewer_tint.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -588,6 +612,14 @@
                 "id": "9290bf09-3e19-4297-8817-f7f953a2e725",
                 "resourcePath": "views\\aa0d0a7d-815f-4900-872b-3c7f879ff55c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "af271ee3-f96a-492c-b75d-daa197a78d08",
+            "Value": {
+                "id": "7c2c2e96-fba0-43b5-8748-7bc776197d4c",
+                "resourcePath": "rooms\\rm_test1\\rm_test1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -711,11 +743,27 @@
             }
         },
         {
+            "Key": "d592794c-1d5a-4209-9828-593a938ab6f3",
+            "Value": {
+                "id": "bc0dc4c1-a937-4e5e-b546-94845adb5e60",
+                "resourcePath": "tilesets\\tls_sewer3_tint\\tls_sewer3_tint.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "d68a07d6-cb4d-4c7b-99b6-2d717d65378f",
             "Value": {
                 "id": "f4f3b51d-ac2e-4da1-bbf1-a95ef0ae5bce",
                 "resourcePath": "objects\\obj_stretchy_water\\obj_stretchy_water.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d9df9281-d596-4838-8527-8a6efc38d05a",
+            "Value": {
+                "id": "015ff43f-f171-4e10-ad85-2a36cc7689d8",
+                "resourcePath": "sprites\\spr_sewer_tiles_tint\\spr_sewer_tiles_tint.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
