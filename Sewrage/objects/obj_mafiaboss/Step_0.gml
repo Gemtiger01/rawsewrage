@@ -5,7 +5,7 @@ if instance_exists(Player_obj){
 		instance_create_layer(x,y, "Bullet_layer", obj_Cheese);
 		CheeseCooldown = 45;
 	 }
-	 CheeseCooldown -= 1;
+	 CheeseCooldown -= 3.5;
 } 
 
 if (hp <=0) {
