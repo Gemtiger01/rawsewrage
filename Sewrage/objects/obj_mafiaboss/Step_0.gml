@@ -17,4 +17,5 @@ if (hp <=0) {
 	}
 	effect_create_above(ef_star, x, y, 3, c_red);
 	instance_destroy();
+	
 }
