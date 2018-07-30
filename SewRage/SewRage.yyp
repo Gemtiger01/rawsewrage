@@ -807,6 +807,14 @@
             }
         },
         {
+            "Key": "de5df0b2-c7d7-4941-8105-8ead84c73d4f",
+            "Value": {
+                "id": "a7cc7012-6d30-4fcf-a9bc-871b2772f76f",
+                "resourcePath": "objects\\obj_clam\\obj_clam.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "de91ceed-6bca-4dd4-a6a5-d3b266cfdba8",
             "Value": {
                 "id": "b71f63e8-c1c8-4881-8479-290764beec8a",
