@@ -9,5 +9,5 @@ spd = max(5, random(8));
 
 phy_fixed_rotation = true;
 
-//image_xscale = 0.25;
-//image_yscale = 0.25;
+//image_xscale = 0.15;
+//image_yscale = 0.15;
