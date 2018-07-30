@@ -159,14 +159,6 @@
             }
         },
         {
-            "Key": "249a765f-3526-4351-85b6-b81c1baa20d4",
-            "Value": {
-                "id": "fb09f9b8-0576-4fa0-b1ef-54d6d9a5a312",
-                "resourcePath": "sprites\\spr_player\\spr_player.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "27209687-b99f-4e63-92f9-74a1677d8476",
             "Value": {
                 "id": "48fe2f92-3b85-4c90-b870-540eacac181e",
@@ -196,6 +188,14 @@
                 "id": "f94a0e69-d291-45bb-9446-de09bcca6591",
                 "resourcePath": "rooms\\rm_floorone2\\rm_floorone2.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "2c522250-1796-4d22-86ef-27d3896f169c",
+            "Value": {
+                "id": "65808621-29be-47de-b961-62641104dc0c",
+                "resourcePath": "sprites\\spr_player_up_down\\spr_player_up_down.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -420,6 +420,14 @@
                 "id": "4e9be032-b4be-4a96-ab22-460b776934cc",
                 "resourcePath": "rooms\\rm_floorone1\\rm_floorone1.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "6dc8ada5-e476-4876-9236-bea24792ae00",
+            "Value": {
+                "id": "2014a066-7eb4-4b8e-abcf-d2535207375d",
+                "resourcePath": "sprites\\spr_player_down_water\\spr_player_down_water.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -804,6 +812,14 @@
                 "id": "87929ccf-2ed0-4018-b4df-0fd6cd590a40",
                 "resourcePath": "sprites\\spr_sewer_tiles2\\spr_sewer_tiles2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "de5df0b2-c7d7-4941-8105-8ead84c73d4f",
+            "Value": {
+                "id": "a7cc7012-6d30-4fcf-a9bc-871b2772f76f",
+                "resourcePath": "objects\\obj_clam\\obj_clam.yy",
+                "resourceType": "GMObject"
             }
         },
         {
