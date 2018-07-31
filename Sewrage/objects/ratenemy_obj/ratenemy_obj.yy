@@ -123,6 +123,26 @@
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "8253ea92-dce9-4835-a66c-f46c2faeaa97"
+        },
+        {
+            "id": "b5a023d2-0c88-4dcd-b178-effb1b1174f4",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
+            "eventtype": 3,
+            "m_owner": "8253ea92-dce9-4835-a66c-f46c2faeaa97"
+        },
+        {
+            "id": "4f7a4757-3d97-41eb-90bb-dac719ac280a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 3,
+            "m_owner": "8253ea92-dce9-4835-a66c-f46c2faeaa97"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -138,35 +158,21 @@
     "physicsObject": true,
     "physicsRestitution": 0.1,
     "physicsSensor": false,
-    "physicsShape": 1,
+    "physicsShape": 0,
     "physicsShapePoints": [
         {
-            "id": "de836950-a5df-4902-8718-5b08c53dc8bd",
+            "id": "187f2bf4-2a1c-457b-bda6-d8d5ed69e054",
             "modelName": "GMPoint",
             "mvc": "1.0",
-            "x": 36,
-            "y": 18
+            "x": 32,
+            "y": 40
         },
         {
-            "id": "985ee6b6-c97e-43fe-8f4c-b29e0c938be6",
+            "id": "060d4150-a1db-4acd-9116-af2b9fd5c2f1",
             "modelName": "GMPoint",
             "mvc": "1.0",
-            "x": 91,
-            "y": 18
-        },
-        {
-            "id": "71d8000a-cc08-4cd7-afa9-dbe3d9b482e0",
-            "modelName": "GMPoint",
-            "mvc": "1.0",
-            "x": 91,
-            "y": 143
-        },
-        {
-            "id": "e45857fb-7073-4a18-8a22-2e4b4f9521a7",
-            "modelName": "GMPoint",
-            "mvc": "1.0",
-            "x": 36,
-            "y": 143
+            "x": 28,
+            "y": 40
         }
     ],
     "physicsStartAwake": true,

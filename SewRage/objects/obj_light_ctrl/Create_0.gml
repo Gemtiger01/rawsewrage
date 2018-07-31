@@ -4,7 +4,7 @@ depth=-100;
 light_surface = surface_create(room_width, room_height);
 
 part_system = part_system_create();
-part_system_depth(part_system,-100);
+part_system_depth(part_system,0);
 
 
 part_emitter = part_emitter_create(part_system);
