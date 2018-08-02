@@ -18,6 +18,7 @@ if (hp <= 0){
 	if (Lootdrop <= 10){
 		instance_create_layer(x,y,"Instances", obj_bandage)
 	}
+	audio_play_sound(sound_ratdeath,0,0);
 	effect_create_above(ef_ring, x, y, 3, c_red);
 	effect_create_above(ef_firework, x, y, 3, c_red);
 	instance_destroy();

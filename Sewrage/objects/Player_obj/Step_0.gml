@@ -146,6 +146,7 @@ if (is_jumping) {
 /// Shooting
 if (mouse_check_button(mb_left) and cooldown < 1)
 {
+	audio_play_sound(sound_bubbleshooting,0,0);
 	repeat 3 scr_shoot_bullet();
 	cooldown = 20;
 }
