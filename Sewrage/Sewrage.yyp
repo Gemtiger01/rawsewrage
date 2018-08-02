@@ -639,6 +639,14 @@
             }
         },
         {
+            "Key": "a984d3f7-fce1-4a02-b97e-6d3a5986c329",
+            "Value": {
+                "id": "c094b5d5-4332-4191-80d3-cc0180a32e4f",
+                "resourcePath": "sprites\\spr_player_jump\\spr_player_jump.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "aa0d0a7d-815f-4900-872b-3c7f879ff55c",
             "Value": {
                 "id": "9290bf09-3e19-4297-8817-f7f953a2e725",
