@@ -31,3 +31,8 @@ persistent = true;
 
 x_radius = 2;
 y_radius = 2;
+
+is_jumping = false;
+npj_target_x = 0;
+npj_target_y = 0;
+
