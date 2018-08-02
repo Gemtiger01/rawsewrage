@@ -150,7 +150,7 @@
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 82,
+            "enumb": 8,
             "eventtype": 9,
             "m_owner": "cd5d0310-a153-48ce-8858-e5d9fc86e54b"
         }
@@ -165,29 +165,29 @@
     "physicsGroup": 0,
     "physicsKinematic": false,
     "physicsLinearDamping": 0.1,
-    "physicsObject": true,
+    "physicsObject": false,
     "physicsRestitution": 0.1,
     "physicsSensor": false,
     "physicsShape": 0,
     "physicsShapePoints": [
         {
-            "id": "72c84562-61c6-4151-b0cb-aa75349f180b",
+            "id": "54e0b5a4-4a0e-49b6-be2f-be70bc39029b",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 32,
             "y": 46
         },
         {
-            "id": "11444568-40b0-4ed1-97a4-7142a4cb5724",
+            "id": "ee16943b-55eb-4a1e-8008-566a428a8a59",
             "modelName": "GMPoint",
             "mvc": "1.0",
-            "x": 19,
+            "x": 20,
             "y": 46
         }
     ],
     "physicsStartAwake": true,
     "properties": null,
-    "solid": true,
+    "solid": false,
     "spriteId": "803d0fa2-4925-491d-a996-d329bad62211",
     "visible": true
 }
