@@ -91,6 +91,9 @@ if (ydir == 0) {
 
 
 /// Jumpping
+var jump_target_x = (phy_position_x + 128) * xdir;
+var jump_target_y = (phy_position_y + 128) * ydir;
+
 key_jump = keyboard_check_pressed(vk_space);
 
 /// Shooting
