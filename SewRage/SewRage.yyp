@@ -359,11 +359,35 @@
             }
         },
         {
+            "Key": "4aa15d4c-9936-4e58-9b87-aca564763316",
+            "Value": {
+                "id": "13f08e43-40a3-40ad-933f-96d47ba7302d",
+                "resourcePath": "sounds\\sound_ratdeath\\sound_ratdeath.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "4d707aa4-5fb0-447a-9a39-676da657bb57",
+            "Value": {
+                "id": "4afb0aa7-bb66-405d-a01e-d9a14bddb412",
+                "resourcePath": "sounds\\sound_pop\\sound_pop.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "5072a830-b369-45af-bc09-f467ea486536",
             "Value": {
                 "id": "37476ddf-5a06-4b4c-a9d3-b7ae35da3803",
                 "resourcePath": "sprites\\spr_shrimpz\\spr_shrimpz.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "521828c1-cdee-465d-9345-fabf23a9b269",
+            "Value": {
+                "id": "65d75541-52b4-45df-a02e-0b5b010a6b8b",
+                "resourcePath": "sounds\\sound_coinpickup\\sound_coinpickup.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -575,6 +599,14 @@
             }
         },
         {
+            "Key": "917c4da3-68f2-42e6-8715-541a7a404563",
+            "Value": {
+                "id": "61664841-91fa-44ba-984f-07474b354a60",
+                "resourcePath": "sounds\\sound_bubbleshooting\\sound_bubbleshooting.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "9899d2ca-2c10-4b4b-bec4-9e2c34ca0d92",
             "Value": {
                 "id": "dba59906-a495-4676-9ca1-3a6fbfae38c7",
@@ -660,6 +692,14 @@
                 "id": "7c2c2e96-fba0-43b5-8748-7bc776197d4c",
                 "resourcePath": "rooms\\rm_test1\\rm_test1.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "af4c811a-2063-47bb-9643-f3382449debf",
+            "Value": {
+                "id": "ea39448e-bc47-497e-af6a-5d3924d20f5a",
+                "resourcePath": "sounds\\sound_pickup\\sound_pickup.yy",
+                "resourceType": "GMSound"
             }
         },
         {

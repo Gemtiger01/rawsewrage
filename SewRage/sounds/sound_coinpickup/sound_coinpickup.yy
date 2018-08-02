@@ -1,8 +1,8 @@
 {
-    "id": "5425e80f-735e-4766-b648-ef74edb3c778",
+    "id": "521828c1-cdee-465d-9345-fabf23a9b269",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "sound_background",
+    "name": "sound_coinpickup",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

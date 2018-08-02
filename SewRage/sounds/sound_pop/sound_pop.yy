@@ -1,8 +1,8 @@
 {
-    "id": "5425e80f-735e-4766-b648-ef74edb3c778",
+    "id": "4d707aa4-5fb0-447a-9a39-676da657bb57",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "sound_background",
+    "name": "sound_pop",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
