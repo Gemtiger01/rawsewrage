@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "09ff11bd-52ed-49fd-bfe5-4de259cc4e6a",
+            "Value": {
+                "id": "ea411493-3307-4405-a259-e8d71682acd4",
+                "resourcePath": "sprites\\spr_exitbutton\\spr_exitbutton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0f837fb5-1d3f-47d1-b496-e38aee8a7c2e",
             "Value": {
                 "id": "504aa6f5-9979-433a-bd9f-2b72c8785e10",
@@ -667,6 +675,14 @@
             "Value": {
                 "id": "5601fd52-9843-4f19-81b3-fc106f74ff29",
                 "resourcePath": "sprites\\spr_light_circle\\spr_light_circle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b58ef12a-9037-4cca-969f-dc80e3bbb573",
+            "Value": {
+                "id": "c0fc0f8b-82c1-4f96-9fc2-3b1599c68ffb",
+                "resourcePath": "sprites\\spr_exitbuttonhover\\spr_exitbuttonhover.yy",
                 "resourceType": "GMSprite"
             }
         },
