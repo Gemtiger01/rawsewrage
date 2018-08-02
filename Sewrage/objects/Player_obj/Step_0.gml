@@ -91,11 +91,15 @@ if (ydir == 0) {
 
 
 /// Jumpping
+var jump_target_x = (phy_position_x + 128) * xdir;
+var jump_target_y = (phy_position_y + 128) * ydir;
+
 key_jump = keyboard_check_pressed(vk_space);
 
 /// Shooting
 if (mouse_check_button(mb_left) and cooldown < 1)
 {
+	audio_play_sound(sound_bubbleshooting,0,0);
 	repeat 3 scr_shoot_bullet();
 	cooldown = 20;
 }
