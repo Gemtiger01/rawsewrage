@@ -94,29 +94,28 @@ if (!is_jumping){
 
 
 /// Jumpping
-var jump_target_x = (phy_position_x + (72 * xdir));
-var jump_target_y = (phy_position_y + (72 * ydir));
+var jump_target_x = (phy_position_x + (96 * xdir));
+var jump_target_y = (phy_position_y + (96 * ydir));
 
 if (keyboard_check_pressed(vk_space) and !is_jumping) {
 	is_jumping = true;
 	npj_target_x = jump_target_x;
 	npj_target_y = jump_target_y;
-	//sprite_index = spr_jump;
+	sprite_index = spr_player_jump;
 	if(xdir != 0 or ydir != 0){
 		if (xdir != 0){
 			image_xscale = image_xscale * xdir;
 		}
 		if (collision_line(phy_position_x, phy_position_y, npj_target_x, npj_target_y, obj_halfwall, false, true) and place_empty(jump_target_x, jump_target_y)) {
-			phy_active = false;
+			//phy_active = false;
 		}
 	}
 }
 
 if (is_jumping) {
-	if(xdir = 0 and ydir = 0){
-		alarm_set(0, 1);
-	}
-	else {
+	if(xdir = 0 and ydir = 0 and alarm_get(0) == 0 ){
+		alarm_set(0, 5);
+	} else {
 		if (!phy_active and point_distance(x, y, npj_target_x, npj_target_y) > 5) {
 			move_towards_point(npj_target_x, npj_target_y, 5);
 		}else if (!phy_active and point_distance(x, y, npj_target_x, npj_target_y) < 5) {
@@ -174,10 +173,12 @@ if (playerhealth <= 0)
 var centerX = x - sprite_get_xoffset(sprite_index) + sprite_width / 2;
 var centerY = y - sprite_get_yoffset(sprite_index) + sprite_height / 2;
 
-if (collision_point( x, y, obj_stretchy_water, false, true )){
-	sprite_index = spr_player_water;
-} else {
-	sprite_index = spr_player_2;
+if (!is_jumping){
+	if (collision_point( x, y, obj_stretchy_water, false, true )){
+		sprite_index = spr_player_water;
+	} else {
+		sprite_index = spr_player_2;
+	}
 }
 
 //if (window_get_fullscreen() = true){

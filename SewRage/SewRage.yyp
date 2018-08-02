@@ -759,6 +759,14 @@
             }
         },
         {
+            "Key": "b8576fb8-3fb4-46f5-b708-5fe2d6133fa7",
+            "Value": {
+                "id": "190d9cd7-da84-4147-99c7-22320e115149",
+                "resourcePath": "sprites\\spr_bubblepop\\spr_bubblepop.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bb33dd95-d4ed-4bff-ac33-2a53dcdc5beb",
             "Value": {
                 "id": "98fc4606-86c9-4bd6-80dc-99e94938ca04",
