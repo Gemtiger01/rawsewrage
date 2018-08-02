@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "202663ec-9569-42de-9006-ccf3fa3057c1",
+            "Value": {
+                "id": "6d2f6c3b-80d6-498d-b002-8231aabb7448",
+                "resourcePath": "sprites\\sprite571\\sprite571.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "23a58043-614d-4731-ad69-e45c6d7ec52e",
             "Value": {
                 "id": "7cfb02e1-5e18-4a3b-83bf-63593e1f0396",
@@ -615,6 +623,14 @@
             }
         },
         {
+            "Key": "9bb07a01-3de0-4938-8b36-ea4c743c2cf7",
+            "Value": {
+                "id": "2c35fe96-1cca-426b-9e1c-03b4023645ab",
+                "resourcePath": "sprites\\sprite57\\sprite57.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9cd21526-6d96-4940-9ecd-1bbc0736b32f",
             "Value": {
                 "id": "8795a920-677a-4ec6-b337-bec2acfe6092",
@@ -739,6 +755,14 @@
             "Value": {
                 "id": "dc121299-d881-42c2-b8eb-f514185096bc",
                 "resourcePath": "sprites\\spr_Tentacle2\\spr_Tentacle2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b8576fb8-3fb4-46f5-b708-5fe2d6133fa7",
+            "Value": {
+                "id": "190d9cd7-da84-4147-99c7-22320e115149",
+                "resourcePath": "sprites\\spr_bubblepop\\spr_bubblepop.yy",
                 "resourceType": "GMSprite"
             }
         },
