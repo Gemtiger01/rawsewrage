@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "09ff11bd-52ed-49fd-bfe5-4de259cc4e6a",
+            "Value": {
+                "id": "ea411493-3307-4405-a259-e8d71682acd4",
+                "resourcePath": "sprites\\spr_exitbutton\\spr_exitbutton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0f837fb5-1d3f-47d1-b496-e38aee8a7c2e",
             "Value": {
                 "id": "504aa6f5-9979-433a-bd9f-2b72c8785e10",
@@ -351,11 +359,35 @@
             }
         },
         {
+            "Key": "4aa15d4c-9936-4e58-9b87-aca564763316",
+            "Value": {
+                "id": "13f08e43-40a3-40ad-933f-96d47ba7302d",
+                "resourcePath": "sounds\\sound_ratdeath\\sound_ratdeath.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "4d707aa4-5fb0-447a-9a39-676da657bb57",
+            "Value": {
+                "id": "4afb0aa7-bb66-405d-a01e-d9a14bddb412",
+                "resourcePath": "sounds\\sound_pop\\sound_pop.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "5072a830-b369-45af-bc09-f467ea486536",
             "Value": {
                 "id": "37476ddf-5a06-4b4c-a9d3-b7ae35da3803",
                 "resourcePath": "sprites\\spr_shrimpz\\spr_shrimpz.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "521828c1-cdee-465d-9345-fabf23a9b269",
+            "Value": {
+                "id": "65d75541-52b4-45df-a02e-0b5b010a6b8b",
+                "resourcePath": "sounds\\sound_coinpickup\\sound_coinpickup.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -551,6 +583,14 @@
             }
         },
         {
+            "Key": "83c78f20-f3d4-4ea8-bec2-8b1a0a92a2ef",
+            "Value": {
+                "id": "6c1c9deb-3395-4a01-bdd2-59e272e978cb",
+                "resourcePath": "sprites\\spr_halfwall\\spr_halfwall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "85b7923d-e1db-4fc3-977e-85f65df155c3",
             "Value": {
                 "id": "7aca79b5-50e6-4462-b194-04706fa8b932",
@@ -564,6 +604,14 @@
                 "id": "d59ae65e-19d2-4b94-a944-43885efc50dc",
                 "resourcePath": "sprites\\spr_Cheese\\spr_Cheese.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "917c4da3-68f2-42e6-8715-541a7a404563",
+            "Value": {
+                "id": "61664841-91fa-44ba-984f-07474b354a60",
+                "resourcePath": "sounds\\sound_bubbleshooting\\sound_bubbleshooting.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -663,6 +711,14 @@
             }
         },
         {
+            "Key": "af4c811a-2063-47bb-9643-f3382449debf",
+            "Value": {
+                "id": "ea39448e-bc47-497e-af6a-5d3924d20f5a",
+                "resourcePath": "sounds\\sound_pickup\\sound_pickup.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "b4e74d9a-b18a-40a5-ad74-71d2f66e8830",
             "Value": {
                 "id": "b506d211-050b-42fd-a8c8-d24aa92c2f8e",
@@ -675,6 +731,14 @@
             "Value": {
                 "id": "5601fd52-9843-4f19-81b3-fc106f74ff29",
                 "resourcePath": "sprites\\spr_light_circle\\spr_light_circle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b58ef12a-9037-4cca-969f-dc80e3bbb573",
+            "Value": {
+                "id": "c0fc0f8b-82c1-4f96-9fc2-3b1599c68ffb",
+                "resourcePath": "sprites\\spr_exitbuttonhover\\spr_exitbuttonhover.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -724,6 +788,14 @@
                 "id": "27edf1ec-a876-4a0f-88c1-31d818056cad",
                 "resourcePath": "tilesets\\tls_sewer3\\tls_sewer3.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "cc1a78c3-b684-4373-9e07-4a835933278b",
+            "Value": {
+                "id": "c5001448-7d02-480f-aa3e-8ee3f40536dd",
+                "resourcePath": "objects\\obj_halfwall\\obj_halfwall.yy",
+                "resourceType": "GMObject"
             }
         },
         {
