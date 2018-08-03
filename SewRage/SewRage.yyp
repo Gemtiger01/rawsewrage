@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "3159c78d-bc1b-455b-9714-a5f38b1d5758",
+            "Value": {
+                "id": "302f3f8c-1cf1-4c48-bc2c-e8c8788140e8",
+                "resourcePath": "sprites\\sprite57\\sprite57.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "33c36bd8-bd11-4b74-b0f9-877ca9882fad",
             "Value": {
                 "id": "6d9afc4c-644f-4034-a43e-8359c2e1fe04",
@@ -668,6 +676,14 @@
                 "id": "6598190a-b9ce-480c-9fc2-d751104f0ad6",
                 "resourcePath": "sprites\\spr_HUD\\spr_HUD.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a6a590b7-85d9-4f92-a476-72ca2a311eb9",
+            "Value": {
+                "id": "7b247264-6ebf-4338-9a33-90a29dbc7a99",
+                "resourcePath": "objects\\obj_Rocketshrimp\\obj_Rocketshrimp.yy",
+                "resourceType": "GMObject"
             }
         },
         {
