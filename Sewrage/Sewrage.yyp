@@ -159,14 +159,6 @@
             }
         },
         {
-            "Key": "202663ec-9569-42de-9006-ccf3fa3057c1",
-            "Value": {
-                "id": "6d2f6c3b-80d6-498d-b002-8231aabb7448",
-                "resourcePath": "sprites\\sprite571\\sprite571.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "23a58043-614d-4731-ad69-e45c6d7ec52e",
             "Value": {
                 "id": "7cfb02e1-5e18-4a3b-83bf-63593e1f0396",
@@ -626,7 +618,7 @@
             "Key": "9bb07a01-3de0-4938-8b36-ea4c743c2cf7",
             "Value": {
                 "id": "2c35fe96-1cca-426b-9e1c-03b4023645ab",
-                "resourcePath": "sprites\\sprite57\\sprite57.yy",
+                "resourcePath": "sprites\\spr_rocketshrimp\\spr_rocketshrimp.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -836,6 +828,14 @@
                 "id": "bc8c0b08-47bf-4183-86ab-a5d9fe750d50",
                 "resourcePath": "objects\\Player_obj\\Player_obj.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ce4e9b9a-1fcd-4b0e-aa34-7ad0474d9370",
+            "Value": {
+                "id": "d96d0b58-acfa-4ebc-a166-aaf9b7848628",
+                "resourcePath": "sprites\\spr_button1\\spr_button1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
