@@ -28,6 +28,8 @@ vsp = 0
 maxplayerhealth = 100
 playerhealth = maxplayerhealth
 
+maxenergy = 100
+energy = maxenergy
 ///coin count 
 Money = 0 
 
