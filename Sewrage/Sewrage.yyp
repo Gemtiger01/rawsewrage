@@ -599,6 +599,14 @@
             }
         },
         {
+            "Key": "84080f5b-825f-4ea4-87cb-e1d35fdd2125",
+            "Value": {
+                "id": "1a8154ce-8e7d-4409-9b39-a61d8953e98b",
+                "resourcePath": "sprites\\spr_poison_water\\spr_poison_water.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "85b7923d-e1db-4fc3-977e-85f65df155c3",
             "Value": {
                 "id": "7aca79b5-50e6-4462-b194-04706fa8b932",
@@ -612,6 +620,14 @@
                 "id": "d59ae65e-19d2-4b94-a944-43885efc50dc",
                 "resourcePath": "sprites\\spr_Cheese\\spr_Cheese.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9008e085-1d1d-42bf-b9b4-4964846ce493",
+            "Value": {
+                "id": "fb95f5fe-13ce-4d18-bf10-984f69b9057a",
+                "resourcePath": "tilesets\\tls_poison\\tls_poison.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
