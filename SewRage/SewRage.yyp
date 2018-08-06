@@ -1007,6 +1007,14 @@
             }
         },
         {
+            "Key": "e372981c-6da2-48d3-a072-d808a8a06ba9",
+            "Value": {
+                "id": "6e222a5a-5bf4-48ee-b878-317f5601ff0b",
+                "resourcePath": "objects\\obj_walljump\\obj_walljump.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e5632c8f-4bf6-4116-a0ac-e1c91ea3f3d3",
             "Value": {
                 "id": "97045c5e-ab98-4de3-aee6-25e42aa4a2a4",

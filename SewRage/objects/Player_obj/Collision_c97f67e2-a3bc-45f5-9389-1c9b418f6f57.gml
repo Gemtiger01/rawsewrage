@@ -3,7 +3,6 @@
 is_jumping = false;
 phy_speed_x = 0;
 phy_speed_y = 0;
-physics_fixture_set_sensor(fixture,true);
 xdir=0;
 ydir=0;
 sprite_index = spr_player_2;

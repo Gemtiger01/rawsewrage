@@ -9,6 +9,13 @@ if (surface_exists(light_surface)){
 		gpu_set_blendmode(bm_normal);
 	}
 	with (Player_obj){
+		if(visible == true){
+			gpu_set_blendmode(bm_subtract);
+			draw_sprite_ext(spr_light_circle, 0, x, y, x_radius, y_radius, 0, c_black, 1);
+			gpu_set_blendmode(bm_normal);
+		}
+	}
+	with (obj_walljump){
 		gpu_set_blendmode(bm_subtract);
 		draw_sprite_ext(spr_light_circle, 0, x, y, x_radius, y_radius, 0, c_black, 1);
 		gpu_set_blendmode(bm_normal);
