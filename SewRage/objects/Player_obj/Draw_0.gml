@@ -15,5 +15,5 @@ if (npj_target_x != 0 or npj_target_y != 0){
 		draw_line(phy_position_x,phy_position_y,npj_target_x, npj_target_y);
 	}
 }
-physics_draw_debug();
+//physics_world_draw_debug(phy_debug_render_shapes);
 draw_self();

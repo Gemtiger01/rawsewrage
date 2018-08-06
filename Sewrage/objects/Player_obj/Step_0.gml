@@ -101,13 +101,14 @@ if (keyboard_check_pressed(vk_space) and !is_jumping) {
 	is_jumping = true;
 	npj_target_x = jump_target_x;
 	npj_target_y = jump_target_y;
+	npj_target_dir = point_direction(phy_position_x,phy_position_y,jump_target_x,jump_target_y);
 	sprite_index = spr_player_jump;
 	if(xdir != 0 or ydir != 0){
 		if (xdir != 0){
 			image_xscale = image_xscale * xdir;
 		}
-		if (collision_line(phy_position_x, phy_position_y, npj_target_x, npj_target_y, obj_halfwall, false, true) and place_empty(jump_target_x, jump_target_y)) {
-			//phy_active = false;
+		if (collision_line(phy_position_x, phy_position_y, npj_target_x, npj_target_y, obj_halfwall, false, true)) {
+			force_wall = true;
 		}
 	}
 }
@@ -115,19 +116,40 @@ if (keyboard_check_pressed(vk_space) and !is_jumping) {
 if (is_jumping) {
 	if(xdir = 0 and ydir = 0 and alarm_get(0) == 0 ){
 		alarm_set(0, 5);
-	} else {
-		if (!phy_active and point_distance(x, y, npj_target_x, npj_target_y) > 5) {
-			move_towards_point(npj_target_x, npj_target_y, 5);
-		}else if (!phy_active and point_distance(x, y, npj_target_x, npj_target_y) < 5) {
-			is_jumping = false;
-			phy_active = true;
-			sprite_index = spr_player_2;
-			if (xdir != 0){
-				image_xscale = image_xscale * xdir;
+	}
+	//} else {
+	//	if (!phy_active and point_distance(x, y, npj_target_x, npj_target_y) > 5) {
+	//		motion_set(npj_target_dir, move_speed);
+	//		//x += lengthdir_x(move_speed, npj_target_dir);
+	//		//y += lengthdir_y(move_speed, npj_target_dir);
+	//	}else if (!phy_active and point_distance(x, y, npj_target_x, npj_target_y) < 5) {
+	//		is_jumping = false;
+	//		speed = 0;
+	//		phy_active = true;
+	//		sprite_index = spr_player_2;
+	//		if (xdir != 0){
+	//			image_xscale = image_xscale * xdir;
+	//		}
+	//	}
+		if (point_distance(phy_position_x,phy_position_y, npj_target_x, npj_target_y) > 3) {
+			if(force_wall){
+				jumper = instance_create_layer(phy_position_x,phy_position_y - 16,"Instances",obj_walljump);
+				jumper.target_x = npj_target_x;
+				jumper.target_y = npj_target_y;
+				jumper.phy_speed_x = phy_speed_x;
+				jumper.phy_speed_y = phy_speed_y;
+				jumper.xdir = xdir;
+				jumper.ydir = ydir;
+				if(abs(xdir)==1)jumper.image_xscale = xdir;
+				jumper.spd = move_speed;
+				camera_set_view_target(view_camera[0],obj_walljump);
+				visible = false;
+				force_wall = false;
+			} else {
+				physics_apply_local_impulse(0,0,move_speed * xdir,move_speed * ydir);
 			}
-		}else if (phy_active and point_distance(phy_position_x,phy_position_y, npj_target_x, npj_target_y) > 5) {
-			physics_apply_local_impulse(0,0,move_speed * xdir,move_speed * ydir);
-		}else if(phy_active and point_distance(phy_position_x, phy_position_y, npj_target_x, npj_target_y) < 5){ 
+		}
+		if (point_distance(phy_position_x, phy_position_y, npj_target_x, npj_target_y) < 3){ 
 			is_jumping = false;
 			phy_speed_x = 0;
 			phy_speed_y = 0;
@@ -138,7 +160,6 @@ if (is_jumping) {
 				image_xscale = image_xscale * xdir;
 			}
 		}
-	}
 }
 		
 

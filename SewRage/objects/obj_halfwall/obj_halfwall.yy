@@ -13,8 +13,8 @@
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0,
     "physicsFriction": 0.2,
-    "physicsGroup": 0,
-    "physicsKinematic": true,
+    "physicsGroup": 1,
+    "physicsKinematic": false,
     "physicsLinearDamping": 0.1,
     "physicsObject": true,
     "physicsRestitution": 0.1,
@@ -54,5 +54,5 @@
     "properties": null,
     "solid": false,
     "spriteId": "83c78f20-f3d4-4ea8-bec2-8b1a0a92a2ef",
-    "visible": true
+    "visible": false
 }
