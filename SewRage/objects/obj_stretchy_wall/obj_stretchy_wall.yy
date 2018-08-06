@@ -5,16 +5,6 @@
     "name": "obj_stretchy_wall",
     "eventList": [
         {
-            "id": "ca9ba927-d927-45bb-b940-6fe5223c85fb",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "cd5d0310-a153-48ce-8858-e5d9fc86e54b",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "d55f4872-ac36-4b24-845c-df807dbce31d"
-        },
-        {
             "id": "671305a0-b73c-42ca-bf2e-ff99aa0dae8d",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -32,7 +22,7 @@
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0,
     "physicsFriction": 0,
-    "physicsGroup": 0,
+    "physicsGroup": 1,
     "physicsKinematic": true,
     "physicsLinearDamping": 0.1,
     "physicsObject": true,
