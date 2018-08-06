@@ -1117,6 +1117,14 @@
                 "resourcePath": "views\\fc751256-61a1-4bdf-af50-ed70459c86b6.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "ff925f57-8550-4d3f-8ad4-9e496641f7a1",
+            "Value": {
+                "id": "cecd2f90-0eb7-4fad-9ef7-67eabf5554ef",
+                "resourcePath": "objects\\obj_playerstatues\\obj_playerstatues.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [
