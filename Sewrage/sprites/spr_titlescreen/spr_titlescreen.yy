@@ -2,7 +2,7 @@
     "id": "d2bb45bb-6c55-4a0a-adba-9c24d695c94d",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_placeholdertitlescreen",
+    "name": "spr_titlescreen",
     "For3D": false,
     "HTile": false,
     "VTile": false,

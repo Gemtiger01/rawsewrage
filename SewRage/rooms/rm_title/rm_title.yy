@@ -26,7 +26,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_2C0E66FE","id": "ba48b54d-7154-4c12-a342-953a4d5491a5","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2C0E66FE","objId": "5c657e0e-6645-4a03-9aba-635dfa86c3fc","properties": null,"rotation": 0,"scaleX": 1.184259,"scaleY": 0.9999995,"mvc": "1.0","x": 695,"y": 472},
+{"name": "inst_2C0E66FE","id": "ba48b54d-7154-4c12-a342-953a4d5491a5","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2C0E66FE","objId": "5c657e0e-6645-4a03-9aba-635dfa86c3fc","properties": null,"rotation": 0,"scaleX": 1.184259,"scaleY": 0.9999995,"mvc": "1.0","x": -192,"y": 0},
 {"name": "inst_23F460D0","id": "98696099-3490-4cbc-8000-a5e71c8b1b18","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_23F460D0","objId": "380a7b7e-5e11-44e2-8eba-3185d3131cef","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 800,"y": 96}
             ],
             "layers": [
@@ -50,7 +50,7 @@
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
-            "hierarchyVisible": true,
+            "hierarchyVisible": false,
             "hspeed": 0,
             "htiled": false,
             "inheritLayerDepth": false,
@@ -68,7 +68,7 @@
             "stretch": false,
             "userdefined_animFPS": false,
             "userdefined_depth": false,
-            "visible": true,
+            "visible": false,
             "vspeed": 0,
             "vtiled": false,
             "x": 0,

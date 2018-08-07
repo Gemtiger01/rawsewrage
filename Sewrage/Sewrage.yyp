@@ -930,7 +930,7 @@
             "Key": "d2bb45bb-6c55-4a0a-adba-9c24d695c94d",
             "Value": {
                 "id": "715e4115-d185-4678-a66e-df8828db8dbf",
-                "resourcePath": "sprites\\spr_placeholdertitlescreen\\spr_placeholdertitlescreen.yy",
+                "resourcePath": "sprites\\spr_titlescreen\\spr_titlescreen.yy",
                 "resourceType": "GMSprite"
             }
         },
