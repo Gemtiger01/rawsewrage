@@ -3,3 +3,4 @@
 if (layer != layer_get_id("Instances")){
 	layer_add_instance(layer_get_id("Instances"), id);
 }
+if (phy_rotation != 0) phy_rotation = 0;
