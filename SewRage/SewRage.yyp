@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "15c18e20-5370-49c8-9fa7-f73fbf09d138",
+            "Value": {
+                "id": "9d885cac-d8bc-4bb2-9cc9-8757a120a653",
+                "resourcePath": "sprites\\spr_crosshair\\spr_crosshair.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "19fd57d5-f2e3-491e-908c-cfacec51f3a6",
             "Value": {
                 "id": "003d2b2c-600b-4c32-9fac-3be35b5472ef",
