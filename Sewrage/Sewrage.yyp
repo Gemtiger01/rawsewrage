@@ -202,7 +202,7 @@
             "Key": "2c522250-1796-4d22-86ef-27d3896f169c",
             "Value": {
                 "id": "65808621-29be-47de-b961-62641104dc0c",
-                "resourcePath": "sprites\\spr_player_up_down\\spr_player_up_down.yy",
+                "resourcePath": "sprites\\spr_player_up_water\\spr_player_up_water.yy",
                 "resourceType": "GMSprite"
             }
         },
