@@ -1,5 +1,7 @@
 /// @description Insert description here
 ///range cooldown
+cursor_sprite = spr_crosshair;
+window_set_cursor(cr_none);
 fixture = physics_fixture_create();
 physics_fixture_set_circle_shape(fixture,20);
 physics_fixture_set_collision_group(fixture,1);
