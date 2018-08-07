@@ -9,11 +9,11 @@ draw_text_transformed_color(x,y-51,life_disp,1,1,0,c_black,c_black,c_black,c_bla
 draw_text_transformed_color(x-1,y-50,life_disp,1,1,0,c_black,c_black,c_black,c_black,1);
 draw_text_transformed_color(x+1,y-50,life_disp,1,1,0,c_black,c_black,c_black,c_black,1);
 draw_text_transformed_color(x,y-50,life_disp,1,1,0,c_red,c_red,c_maroon,c_maroon,1);
-draw_set_colour(c_red);
-if (npj_target_x != 0 or npj_target_y != 0){
-	if (is_jumping){
-		draw_line(phy_position_x,phy_position_y,npj_target_x, npj_target_y);
-	}
-}
+//draw_set_colour(c_red);
+//if (npj_target_x != 0 or npj_target_y != 0){
+//	if (is_jumping){
+//		draw_line(phy_position_x,phy_position_y,npj_target_x, npj_target_y);
+//	}
+//}
 //physics_world_draw_debug(phy_debug_render_shapes);
 draw_self();

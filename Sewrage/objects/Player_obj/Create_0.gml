@@ -12,7 +12,10 @@ if (instance_number(Player_obj)>1){
 	dupe = true;
 	instance_destroy();
 }
-
+set_sprite_index = sprite_index;
+start_jump_x = phy_position_x;
+start_jump_y = phy_position_y;
+last_sprite_index = set_sprite_index;
 last_xscale = image_xscale;
 
 cooldown = 0;
