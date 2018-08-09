@@ -131,7 +131,7 @@ if ((keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(0,gp_stick
 		if (xdir != 0){
 			image_xscale = image_xscale * xdir;
 		}
-		if (collision_line(phy_position_x, phy_position_y, npj_target_x, npj_target_y, obj_halfwall, false, true)) {
+		if (collision_line(phy_position_x, phy_position_y, npj_target_x, npj_target_y, obj_halfwall, false, true) and !position_meeting(npj_target_x, npj_target_y, obj_stretchy_wall)) {
 			force_wall = true;
 		}
 	}
@@ -174,6 +174,7 @@ if (collision_point( x, y, obj_stretchy_poison, false, true)){
 	phy_position_x = start_jump_x;
 	phy_position_y = start_jump_y;
 	playerhealth -= 5;
+	damage_cooldown =30;
 }		
 
 /// Shooting
