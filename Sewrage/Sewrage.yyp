@@ -687,14 +687,6 @@
             }
         },
         {
-            "Key": "93f6b45e-de0a-45c0-af0e-3e63f76193b4",
-            "Value": {
-                "id": "e159551b-b229-491f-86a5-0bb95556e9cf",
-                "resourcePath": "rooms\\rm_floorone_detail\\rm_floorone_detail.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "9510c43d-2b6f-4ca9-a51b-5901ae518fa7",
             "Value": {
                 "id": "e7331e7b-69b0-471b-bf72-d2bd123b7110",
