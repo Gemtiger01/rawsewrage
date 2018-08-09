@@ -6,10 +6,10 @@
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 992,
-    "bbox_left": 126,
-    "bbox_right": 652,
-    "bbox_top": 881,
+    "bbox_bottom": 976,
+    "bbox_left": 186,
+    "bbox_right": 615,
+    "bbox_top": 959,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
@@ -36,7 +36,7 @@
                     "LayerId": "dd42ff0a-c813-44da-8a8f-524a919ee390"
                 },
                 {
-                    "id": "83e79653-3cc3-436f-85a4-f7cb9891f445",
+                    "id": "4b2e35d8-f379-41dd-be3e-0f8412ea19b9",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
                     "FrameId": "7e4c3199-5cca-417e-97f4-d44356eee6a4",
@@ -82,7 +82,7 @@
     "swfPrecision": 2.525,
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
-    "width": 1080,
+    "width": 1920,
     "xorig": 0,
     "yorig": 0
 }
