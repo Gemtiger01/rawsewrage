@@ -30,10 +30,10 @@ speed_multiplier = 1;
 hsp = 5
 vsp = 0
 
-maxplayerhealth = 100
-playerhealth = maxplayerhealth
+maxplayerhealth = 100 
+playerhealth = maxplayerhealth 
 
-maxenergy = 100
+maxenergy = 100 
 energy = maxenergy
 ///coin count 
 Money = 0 
@@ -51,3 +51,4 @@ is_jumping = false;
 npj_target_x = 0;
 npj_target_y = 0;
 
+level = 1

@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "00f2629b-5be7-4dd8-babe-e42709a9d78e",
+            "Value": {
+                "id": "8f43cdfb-b42d-4648-a9a5-a3d9bb24a8db",
+                "resourcePath": "objects\\obj_pearl\\obj_pearl.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "056c176b-bafe-40dc-993a-417fbcb1c127",
             "Value": {
                 "id": "53cf424f-a4af-42a4-8549-f71ec3a111d9",
