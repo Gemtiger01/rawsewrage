@@ -367,6 +367,14 @@
             }
         },
         {
+            "Key": "430378a9-f0d3-4def-9d7a-a094b8813da7",
+            "Value": {
+                "id": "e9fc9c9d-6843-4b78-b8df-3bab523d4c16",
+                "resourcePath": "sprites\\spr_player\\spr_player.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "43e8d1fc-05f8-42c0-ae0f-4d6601d8cb07",
             "Value": {
                 "id": "af223145-a1b2-48b6-aba0-9b39627c9fa4",
@@ -579,14 +587,6 @@
             "Value": {
                 "id": "98727534-97e4-4f31-b3b5-f14e51c2fce8",
                 "resourcePath": "sprites\\spr_mafiaboss\\spr_mafiaboss.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "803d0fa2-4925-491d-a996-d329bad62211",
-            "Value": {
-                "id": "bfe9aa5a-18c5-4a04-870d-66887f8b461a",
-                "resourcePath": "sprites\\spr_player_2\\spr_player_2.yy",
                 "resourceType": "GMSprite"
             }
         },
