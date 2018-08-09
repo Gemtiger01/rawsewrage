@@ -1,5 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
+depth = -y;
+if (damage_cooldown > 0) {
+	damage_cooldown--;
+	damage_alpha = sin(damage_cooldown * 10);
+}else{
+	damage_alpha = 1;
+}
 if gamepad_is_connected(0) gamepad_set_axis_deadzone(0, .25);
 if gamepad_is_connected(0) var lhaxis = gamepad_axis_value(0,gp_axislh);
 else var lhaxis = 0;

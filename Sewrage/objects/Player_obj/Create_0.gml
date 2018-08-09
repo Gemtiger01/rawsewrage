@@ -1,5 +1,7 @@
 /// @description Insert description here
 ///range cooldown
+damage_cooldown = 0;
+damage_alpha = 1;
 cursor_sprite = spr_crosshair;
 window_set_cursor(cr_none);
 fixture = physics_fixture_create();
@@ -51,3 +53,4 @@ is_jumping = false;
 npj_target_x = 0;
 npj_target_y = 0;
 
+depth = -100;

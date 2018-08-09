@@ -11,3 +11,6 @@ if (phy_position_x == phy_position_xprevious and phy_position_y == phy_position_
 	image_speed = speed_multiplier;
 }
 last_xscale = image_xscale;
+if (image_alpha != damage_alpha){
+	image_alpha = damage_alpha
+}
