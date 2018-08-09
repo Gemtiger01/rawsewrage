@@ -1,5 +1,10 @@
-phy_position_x=Player_obj.phy_position_x;
-phy_position_y=Player_obj.phy_position_y;
+if(!Player_obj.is_jumping or !instance_exists(obj_walljump)){
+	phy_position_x=Player_obj.phy_position_x;
+	phy_position_y=Player_obj.phy_position_y;
+}else{
+	phy_position_x=obj_walljump.phy_position_x;
+	phy_position_y=obj_walljump.phy_position_y;
+}
 phy_linear_velocity_x = 0;
 phy_linear_velocity_y = 0;
 if gamepad_is_connected(0) var rhaxis = gamepad_axis_value(0,gp_axisrh);
