@@ -1,5 +1,5 @@
 {
-    "id": "5c657e0e-6645-4a03-9aba-635dfa86c3fc",
+    "id": "b0cace25-1497-4458-b85d-40038c489c9e",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_titlescreen",
