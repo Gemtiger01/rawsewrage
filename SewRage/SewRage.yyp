@@ -1191,6 +1191,14 @@
             }
         },
         {
+            "Key": "d9fbfd91-be88-4cb8-8974-90f1db2fec09",
+            "Value": {
+                "id": "0aa06c5d-3ed4-43e1-a04b-7be28604c983",
+                "resourcePath": "sprites\\spr_crocogatorjumpattack\\spr_crocogatorjumpattack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "dace4b0c-b4c5-44f8-af01-c34e1f8608c5",
             "Value": {
                 "id": "89c67107-9750-46dd-b478-9ebdf69261a5",
