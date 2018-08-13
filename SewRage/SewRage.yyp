@@ -543,14 +543,6 @@
             }
         },
         {
-            "Key": "6df99243-8722-4af5-8c5f-0cc0d99f153e",
-            "Value": {
-                "id": "6cd6342a-e8a8-4d10-88b3-812dc20e107b",
-                "resourcePath": "sprites\\spr_dead\\spr_dead.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "71b35938-8f55-4359-9d28-82144797865d",
             "Value": {
                 "id": "eeb74d82-cf54-46db-9fe2-af14932274fa",
