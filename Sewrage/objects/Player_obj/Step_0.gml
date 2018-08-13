@@ -208,7 +208,10 @@ if (playerhealth <= 0)
 var centerX = x - sprite_get_xoffset(sprite_index) + sprite_width / 2;
 var centerY = y - sprite_get_yoffset(sprite_index) + sprite_height / 2;
 
-
+if(is_jumping){
+	if(set_sprite_index == spr_player_jump and xdir = 0 and ydir = -1) set_sprite_index = spr_player_up_jump;
+	else if (set_sprite_index == spr_player_jump and xdir = 0 and ydir = 1) set_sprite_index = spr_player_down_jump;
+}
 if (collision_point( x, y, obj_stretchy_water, false, true ) and !is_jumping){
 	if(set_sprite_index == spr_player_up) sprite_index = spr_player_up_water;
 	else if (set_sprite_index == spr_player_down) sprite_index = spr_player_down_water;

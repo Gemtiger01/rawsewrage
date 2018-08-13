@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "112e89cb-04f1-45ea-af4b-b1be7a3dba20",
+            "Value": {
+                "id": "97d09592-0220-4feb-9954-d74314aa554f",
+                "resourcePath": "objects\\obj_chz_explosion\\obj_chz_explosion.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "11acefb8-84bf-4a7f-8140-c9e751ba2f24",
             "Value": {
                 "id": "dc12a7e1-7946-43c1-a1b3-6075e4d30b6b",
@@ -951,6 +959,14 @@
             }
         },
         {
+            "Key": "b0cace25-1497-4458-b85d-40038c489c9e",
+            "Value": {
+                "id": "539f7830-65eb-4d13-beec-c22accc63610",
+                "resourcePath": "objects\\obj_titlescreen\\obj_titlescreen.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b1ca670d-fc9b-4524-83bf-4180fdb71de7",
             "Value": {
                 "id": "29c16f66-dc16-4bdc-a19d-60b260ffa681",
@@ -1180,6 +1196,14 @@
                 "id": "b269551d-b341-45a1-a49c-17e7a29e26fd",
                 "resourcePath": "views\\d9f31a70-1e0f-4fa2-a290-b00d9f9b35f6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d9fbfd91-be88-4cb8-8974-90f1db2fec09",
+            "Value": {
+                "id": "0aa06c5d-3ed4-43e1-a04b-7be28604c983",
+                "resourcePath": "sprites\\spr_crocogatorjumpattack\\spr_crocogatorjumpattack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
