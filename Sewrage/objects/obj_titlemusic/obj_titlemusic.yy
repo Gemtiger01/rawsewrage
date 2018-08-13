@@ -2,7 +2,7 @@
     "id": "b61eeaab-b9ec-4358-abe1-16013ee4666b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_music1",
+    "name": "obj_titlemusic",
     "eventList": [
         {
             "id": "f714e562-f6b7-4900-88d1-f3d03e8a4f50",
@@ -12,6 +12,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
+            "m_owner": "b61eeaab-b9ec-4358-abe1-16013ee4666b"
+        },
+        {
+            "id": "b4169652-23cb-4861-8449-f2cd557ffbba",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 7,
             "m_owner": "b61eeaab-b9ec-4358-abe1-16013ee4666b"
         }
     ],

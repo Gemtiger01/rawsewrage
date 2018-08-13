@@ -1018,7 +1018,7 @@
             "Key": "b61eeaab-b9ec-4358-abe1-16013ee4666b",
             "Value": {
                 "id": "32fae236-c9de-42f4-a2c2-f2e8d8cded5e",
-                "resourcePath": "objects\\obj_music1\\obj_music1.yy",
+                "resourcePath": "objects\\obj_titlemusic\\obj_titlemusic.yy",
                 "resourceType": "GMObject"
             }
         },
