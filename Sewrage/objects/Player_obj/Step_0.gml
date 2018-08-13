@@ -1,5 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
+depth = -y;
+if (damage_cooldown > 0) {
+	damage_cooldown--;
+	damage_alpha = sin(damage_cooldown * 10);
+}else{
+	damage_alpha = 1;
+}
 if gamepad_is_connected(0) gamepad_set_axis_deadzone(0, .25);
 if gamepad_is_connected(0) var lhaxis = gamepad_axis_value(0,gp_axislh);
 else var lhaxis = 0;
@@ -82,36 +89,36 @@ if (!is_jumping){
 
 /// Jumpping
 if (xdir == 1 and ydir == 1) {
-	var jump_target_x = (phy_position_x + (69 * xdir));
-	var jump_target_y = (phy_position_y + (69 * ydir));
+	var jump_target_x = (phy_position_x + (71 * xdir));
+	var jump_target_y = (phy_position_y + (71 * ydir));
 }else if (xdir == 0 and ydir == 1){
-	var jump_target_x = (phy_position_x + (96 * xdir));
-	var jump_target_y = (phy_position_y + (96 * ydir));
+	var jump_target_x = (phy_position_x + (100 * xdir));
+	var jump_target_y = (phy_position_y + (100 * ydir));
 }else if (xdir == -1 and ydir == 1){
-	var jump_target_x = (phy_position_x + (69 * xdir));
-	var jump_target_y = (phy_position_y + (69 * ydir));
+	var jump_target_x = (phy_position_x + (71 * xdir));
+	var jump_target_y = (phy_position_y + (71 * ydir));
 }else if (xdir == -1 and ydir == 0){
-	var jump_target_x = (phy_position_x + (96 * xdir));
-	var jump_target_y = (phy_position_y + (96 * ydir));
+	var jump_target_x = (phy_position_x + (100 * xdir));
+	var jump_target_y = (phy_position_y + (100 * ydir));
 }else if (xdir == -1 and ydir == -1){
-	var jump_target_x = (phy_position_x + (69 * xdir));
-	var jump_target_y = (phy_position_y + (69 * ydir));
+	var jump_target_x = (phy_position_x + (71 * xdir));
+	var jump_target_y = (phy_position_y + (71 * ydir));
 }else if (xdir == 0 and ydir == -1){
-	var jump_target_x = (phy_position_x + (96 * xdir));
-	var jump_target_y = (phy_position_y + (96 * ydir));
+	var jump_target_x = (phy_position_x + (100 * xdir));
+	var jump_target_y = (phy_position_y + (100 * ydir));
 }else if (xdir == 1 and ydir == -1){
-	var jump_target_x = (phy_position_x + (69 * xdir));
-	var jump_target_y = (phy_position_y + (69 * ydir));
+	var jump_target_x = (phy_position_x + (71 * xdir));
+	var jump_target_y = (phy_position_y + (71 * ydir));
 }else if (xdir == 1 and ydir == 0){
-	var jump_target_x = (phy_position_x + (96 * xdir));
-	var jump_target_y = (phy_position_y + (96 * ydir));
+	var jump_target_x = (phy_position_x + (100 * xdir));
+	var jump_target_y = (phy_position_y + (100 * ydir));
 }else if (xdir == 0 and ydir == 0){
 	var jump_target_x = phy_position_x;
 	var jump_target_y = phy_position_y;
 }
 
 
-if (keyboard_check_pressed(vk_space) and !is_jumping) {
+if ((keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(0,gp_stickl)) and !is_jumping) {
 	is_jumping = true;
 	npj_target_x = jump_target_x;
 	npj_target_y = jump_target_y;
@@ -124,7 +131,7 @@ if (keyboard_check_pressed(vk_space) and !is_jumping) {
 		if (xdir != 0){
 			image_xscale = image_xscale * xdir;
 		}
-		if (collision_line(phy_position_x, phy_position_y, npj_target_x, npj_target_y, obj_halfwall, false, true)) {
+		if (collision_line(phy_position_x, phy_position_y, npj_target_x, npj_target_y, obj_halfwall, false, true) and !position_meeting(npj_target_x, npj_target_y, obj_stretchy_wall)) {
 			force_wall = true;
 		}
 	}
@@ -167,6 +174,7 @@ if (collision_point( x, y, obj_stretchy_poison, false, true)){
 	phy_position_x = start_jump_x;
 	phy_position_y = start_jump_y;
 	playerhealth -= 5;
+	damage_cooldown =30;
 }		
 
 /// Shooting
@@ -217,3 +225,5 @@ if (collision_point( x, y, obj_stretchy_water, false, true ) and !is_jumping){
 //	view_set_wport(0, 1280);
 //	view_set_hport(0, 720);
 //}
+
+

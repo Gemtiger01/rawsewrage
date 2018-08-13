@@ -23,3 +23,12 @@ if (hp <= 0){
 	effect_create_above(ef_firework, x, y, 3, c_red);
 	instance_destroy();
 }
+
+if(distance_to_point(tx,ty) < 1 and tx != 0 and ty !=0){
+	path_target++;
+	tx = path_get_point_x(path, path_target);
+	ty = path_get_point_y(path, path_target);
+	dir = point_direction(x,y,tx,ty);
+	phy_speed_x = lengthdir_x(spd/4,dir);
+	phy_speed_y = lengthdir_y(spd/4,dir);
+}

@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-depth=-100;
+depth=-10001;
 light_surface = surface_create(room_width, room_height);
 
 part_system = part_system_create();
