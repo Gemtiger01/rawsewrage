@@ -1,6 +1,7 @@
 ///hps
 maxhp = 1000;
 hp = maxhp;
+count = 0;
 path = path_add();
 alarm_set(1,20);
 

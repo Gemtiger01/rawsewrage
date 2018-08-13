@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "112e89cb-04f1-45ea-af4b-b1be7a3dba20",
+            "Value": {
+                "id": "97d09592-0220-4feb-9954-d74314aa554f",
+                "resourcePath": "objects\\obj_chz_explosion\\obj_chz_explosion.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "11acefb8-84bf-4a7f-8140-c9e751ba2f24",
             "Value": {
                 "id": "dc12a7e1-7946-43c1-a1b3-6075e4d30b6b",
