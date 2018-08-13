@@ -2,7 +2,7 @@
     "id": "5c657e0e-6645-4a03-9aba-635dfa86c3fc",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_titalscreen",
+    "name": "obj_titlescreen",
     "eventList": [
         
     ],

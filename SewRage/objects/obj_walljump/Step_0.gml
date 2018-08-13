@@ -14,6 +14,7 @@ if ((point_distance(phy_position_x,phy_position_y, target_x,target_y) < 3) or hi
 		Player_obj.playerhealth -= 5;
 		Player_obj.phy_position_x = Player_obj.start_jump_x;
 		Player_obj.phy_position_y = Player_obj.start_jump_y;
+		Player_obj.damage_cooldown = 30;
 	}
 	Player_obj.set_sprite_index = Player_obj.last_sprite_index;
 	Player_obj.visible = true;
