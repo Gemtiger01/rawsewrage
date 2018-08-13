@@ -5,5 +5,4 @@ hp = maxhp;
 
 pearlcooldown = 100;
 
-image_xscale = .25;
-image_yscale = .25;
+secondhp = 300
