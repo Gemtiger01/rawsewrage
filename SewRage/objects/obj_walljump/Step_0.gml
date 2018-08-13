@@ -27,3 +27,4 @@ if ((point_distance(phy_position_x,phy_position_y, target_x,target_y) < 3) or hi
 	instance_destroy(id);
 }
 image_alpha = 1;
+sprite_index = Player_obj.set_sprite_index;
