@@ -951,6 +951,14 @@
             }
         },
         {
+            "Key": "b0cace25-1497-4458-b85d-40038c489c9e",
+            "Value": {
+                "id": "539f7830-65eb-4d13-beec-c22accc63610",
+                "resourcePath": "objects\\obj_titlescreen\\obj_titlescreen.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b1ca670d-fc9b-4524-83bf-4180fdb71de7",
             "Value": {
                 "id": "29c16f66-dc16-4bdc-a19d-60b260ffa681",
