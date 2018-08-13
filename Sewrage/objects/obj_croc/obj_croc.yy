@@ -1,18 +1,18 @@
 {
-    "id": "f6da111c-49b1-4548-bd89-cbb9b7841174",
+    "id": "33778266-e3af-4138-ae2a-25af27308120",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_gameover",
+    "name": "obj_croc",
     "eventList": [
         {
-            "id": "f2250b9d-6a02-41a8-b326-d54a7156a048",
+            "id": "52e5a65d-8fcd-4682-a941-04560c0c043f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
-            "eventtype": 10,
-            "m_owner": "f6da111c-49b1-4548-bd89-cbb9b7841174"
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "33778266-e3af-4138-ae2a-25af27308120"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "946e5d6e-49d0-471f-b930-6e99460421cc",
+    "spriteId": "a45e4fbd-c655-45b2-938b-0618d1f4897a",
     "visible": true
 }
