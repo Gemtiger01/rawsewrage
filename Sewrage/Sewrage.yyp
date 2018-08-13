@@ -487,14 +487,6 @@
             }
         },
         {
-            "Key": "5c657e0e-6645-4a03-9aba-635dfa86c3fc",
-            "Value": {
-                "id": "b15e8b33-a168-40a1-887d-450fc7846b8b",
-                "resourcePath": "objects\\obj_titalscreen\\obj_titalscreen.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "5cecfeea-2899-419a-ae24-0213c333ef5a",
             "Value": {
                 "id": "3c041a09-a420-401f-90d9-4021702f19ba",
