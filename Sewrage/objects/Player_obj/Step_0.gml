@@ -189,6 +189,7 @@ if (rhaxis != 0 or rvaxis != 0) {
 		repeat 3 scr_shoot_bullet();
 		cooldown = 20;
 	}
+}
 cooldown--;
 
 /// player health 
@@ -219,6 +220,7 @@ if (collision_point( x, y, obj_stretchy_water, false, true ) and !is_jumping){
 	sprite_index = set_sprite_index;
 }
 
+
 //if (window_get_fullscreen() = true){
 //	view_set_wport(0, display_get_width());
 //	view_set_hport(0, display_get_height());
@@ -226,3 +228,5 @@ if (collision_point( x, y, obj_stretchy_water, false, true ) and !is_jumping){
 //	view_set_wport(0, 1280);
 //	view_set_hport(0, 720);
 //}
+
+
