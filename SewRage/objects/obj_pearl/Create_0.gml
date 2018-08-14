@@ -12,3 +12,6 @@ var ldy = lengthdir_y(15, dir);
 physics_apply_impulse(x,y, ldx,ldy);
 
 image_angle = direction;
+
+image_xscale = 0.5;
+image_yscale = 0.5;

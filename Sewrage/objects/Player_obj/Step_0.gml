@@ -202,7 +202,8 @@ if (playerhealth > maxplayerhealth)
 if (playerhealth <= 0)
 {
 //	instance_destroy();
-	room_goto(9);
+	instance_destroy();
+	room_goto(rm_defeat);
 }
 
 var centerX = x - sprite_get_xoffset(sprite_index) + sprite_width / 2;

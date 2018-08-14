@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-phy_speed_x = -12;
+phy_speed_x = -2;
