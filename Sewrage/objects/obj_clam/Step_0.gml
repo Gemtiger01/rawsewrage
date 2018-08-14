@@ -5,9 +5,9 @@ if instance_exists(Player_obj){
 
 	 if (pearlcooldown <= 0){
 		instance_create_layer(x,y, "Instances", obj_pearl)
-		pearlcooldown = 45;
+		pearlcooldown = 90;
 	 }
-	 pearlcooldown -= 3.5;
+	 pearlcooldown -= 1;
 } 
 
 if hp <= 0{
