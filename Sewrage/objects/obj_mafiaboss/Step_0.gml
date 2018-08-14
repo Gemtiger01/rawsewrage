@@ -28,13 +28,13 @@ if instance_exists(Player_obj){
 if (hp <=0) {
 	var Lootdrop = random(100)
 	if (Lootdrop <= 100){
-		instance_create_layer(x,y+105,"Instances", obj_coin)
-		instance_create_layer(x,y+100,"Instances", obj_coin)
-		instance_create_layer(x,y+101,"Instances", obj_coin)
-		instance_create_layer(x,y+102,"Instances", obj_coin)
-		instance_create_layer(x,y+103,"Instances", obj_coin)
-		instance_create_layer(x,y+104,"Instances", obj_coin)
-		instance_create_layer(x-100, y+200, "Instances", obj_button2)
+		instance_create_layer(x,y-205,"Instances", obj_coin)
+		instance_create_layer(x,y-200,"Instances", obj_coin)
+		instance_create_layer(x,y-210,"Instances", obj_coin)
+		instance_create_layer(x,y-215,"Instances", obj_coin)
+		instance_create_layer(x+25,y-200,"Instances", obj_coin)
+		instance_create_layer(x-25,y-205,"Instances", obj_coin)
+		instance_create_layer(x-100, y-200, "Instances", obj_button2)
 	}
 	effect_create_above(ef_star, x, y, 3, c_red);
 	instance_destroy();
