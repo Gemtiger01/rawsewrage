@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_gate_2",
     "eventList": [
-        
+        {
+            "id": "78bb2891-3da8-457f-81c4-d2e94d4f49fd",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "cd5d0310-a153-48ce-8858-e5d9fc86e54b",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "e76673d5-eb27-420b-b7af-b7de686f1d38"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

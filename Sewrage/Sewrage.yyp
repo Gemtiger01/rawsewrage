@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "21abd9a9-64db-4bd7-b579-b75266c0d310",
+            "Value": {
+                "id": "74a7723e-bb5d-467c-a3eb-41e09b5f4ebe",
+                "resourcePath": "fonts\\fnt_text12\\fnt_text12.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "23a58043-614d-4731-ad69-e45c6d7ec52e",
             "Value": {
                 "id": "7cfb02e1-5e18-4a3b-83bf-63593e1f0396",
@@ -1396,6 +1404,14 @@
                 "id": "c42846be-789d-40a3-a66e-31479d920bfb",
                 "resourcePath": "objects\\obj_gate_down\\obj_gate_down.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ec1b3ae2-fe1e-42bb-8b68-d26e361a7142",
+            "Value": {
+                "id": "ab87ac8b-2b08-4472-a4c6-a657f3797d22",
+                "resourcePath": "sounds\\sound_background1\\sound_background1.yy",
+                "resourceType": "GMSound"
             }
         },
         {

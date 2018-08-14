@@ -12,6 +12,7 @@
 //		path_start(path, 3, 0, 0);
 //	}
 //}
+depth = -y;
 
 if (hp <= 0){
 	var Lootdrop = random(100)
