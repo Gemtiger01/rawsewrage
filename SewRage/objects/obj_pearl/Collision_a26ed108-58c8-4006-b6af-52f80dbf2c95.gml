@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 with (other){
-	effect_create_above(ef_smoke,x,y,10,c_blue);
+	scr_destroy_bullet();
 	audio_play_sound(sound_pop,0,0);
 	instance_destroy();
 }
