@@ -583,6 +583,14 @@
             }
         },
         {
+            "Key": "579f79a4-1160-46bb-bd86-b33d11f6c324",
+            "Value": {
+                "id": "d87666df-284f-4b67-8c8f-17d86587f166",
+                "resourcePath": "sprites\\spr_creditscreen\\spr_creditscreen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "59a79a94-a669-4381-9997-2a71dc98083a",
             "Value": {
                 "id": "9c756b80-4790-4577-a468-4b4857003a9e",
@@ -652,6 +660,14 @@
                 "id": "c8b1d966-8680-4e45-91cd-31cd278735ad",
                 "resourcePath": "rooms\\rm_SAE\\rm_SAE.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "6316d289-e5df-4e1a-af79-3011a0c0b207",
+            "Value": {
+                "id": "e08a8963-c027-4c3a-bb05-fd07ed6f8b88",
+                "resourcePath": "sprites\\spr_creditsbutton1\\spr_creditsbutton1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -740,6 +756,14 @@
                 "id": "98727534-97e4-4f31-b3b5-f14e51c2fce8",
                 "resourcePath": "sprites\\spr_mafiaboss\\spr_mafiaboss.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "78aa43ed-3f48-4234-8dff-e140629c8a30",
+            "Value": {
+                "id": "cce5e1d0-e11a-4435-a0ea-cd7691060e89",
+                "resourcePath": "objects\\obj_creditsscreen\\obj_creditsscreen.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -836,6 +860,14 @@
                 "id": "d59ae65e-19d2-4b94-a944-43885efc50dc",
                 "resourcePath": "sprites\\spr_Cheese\\spr_Cheese.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8b97ec20-ada0-4c67-9fb0-efca5c83dfb8",
+            "Value": {
+                "id": "16fd6c46-d43e-47cd-b175-6251463876cd",
+                "resourcePath": "objects\\obj_creditsbutton\\obj_creditsbutton.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1287,6 +1319,14 @@
             }
         },
         {
+            "Key": "d967f7f9-859c-42d8-ac6a-065f2f17972b",
+            "Value": {
+                "id": "af6d21f3-81df-4131-89fa-33372364794e",
+                "resourcePath": "rooms\\rm_credits\\rm_credits.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "d9df9281-d596-4838-8527-8a6efc38d05a",
             "Value": {
                 "id": "015ff43f-f171-4e10-ad85-2a36cc7689d8",
@@ -1564,6 +1604,14 @@
                 "id": "cecd2f90-0eb7-4fad-9ef7-67eabf5554ef",
                 "resourcePath": "objects\\obj_playerstatues\\obj_playerstatues.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ffc2e17a-7196-48b1-8699-50a74970f025",
+            "Value": {
+                "id": "30343af7-1793-45b4-a3ef-bc7568714b6e",
+                "resourcePath": "sprites\\spr_creditsbutton\\spr_creditsbutton.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
