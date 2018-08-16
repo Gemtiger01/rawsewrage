@@ -3,6 +3,6 @@
 maxhp = 125;
 hp = maxhp;
 
-pearlcooldown = 120;
+pearlcooldown = 45;
 
 secondhp = 0

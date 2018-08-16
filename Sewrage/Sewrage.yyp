@@ -1119,6 +1119,14 @@
             }
         },
         {
+            "Key": "c54063f9-e1ce-4036-891d-fc125f6c27f8",
+            "Value": {
+                "id": "5fbe1419-12de-477a-9e52-52a263441be3",
+                "resourcePath": "objects\\shrimpspawner_obj2\\shrimpspawner_obj2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c67935b7-c920-4d81-8fa6-70763726850e",
             "Value": {
                 "id": "16c6a55e-f5fb-433d-8b68-1f2f48b3be0e",

@@ -2,7 +2,7 @@
 {
     "name": "rm_floorone3",
     "id": "23a58043-614d-4731-ad69-e45c6d7ec52e",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
