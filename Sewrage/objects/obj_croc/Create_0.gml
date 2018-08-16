@@ -8,7 +8,7 @@ alarm_set(1,1);
 maxhp = 450;
 hp = maxhp;
 ///adds the basic enemy speed 
-spd = max(4, random(8));
+spd = 6;
 
 phy_fixed_rotation = true;
 
