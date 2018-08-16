@@ -9,6 +9,8 @@
         "8253ea92-dce9-4835-a66c-f46c2faeaa97",
         "441d0856-b0f7-4d6f-9d00-fb77de620e41",
         "55a30918-408f-4d04-a7fe-de455960ee5e",
+        "7535fded-65c6-4bcf-b7cc-20455d14cb5b",
+        "d82e8aeb-6396-466c-8f3f-d338045f5da1",
         "3a71e08a-8b0e-4f36-bc31-bfcc69a8a4b6",
         "e0f78751-30cc-4677-a05c-a2fc8cbbbc81",
         "3a7f1945-bc55-45ea-8509-6a64dfca556d",

@@ -1,8 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-maxhp = 125;
-hp = maxhp;
-
-pearlcooldown = 120;
-
-secondhp = 0
+if (instance_number(Player_obj) < 1){
+	alarm[0] = -1;
+}

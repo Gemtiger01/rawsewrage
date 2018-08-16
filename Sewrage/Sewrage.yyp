@@ -711,6 +711,14 @@
             }
         },
         {
+            "Key": "7535fded-65c6-4bcf-b7cc-20455d14cb5b",
+            "Value": {
+                "id": "2def482d-2257-4440-ac5b-d4f9536fbaf9",
+                "resourcePath": "objects\\ratspawner2_obj\\ratspawner2_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "77c0317d-10e6-4ba2-bf75-147856415eee",
             "Value": {
                 "id": "325fd805-0cf4-499f-880d-e6b81f823519",
@@ -1251,6 +1259,14 @@
             "Value": {
                 "id": "f4f3b51d-ac2e-4da1-bbf1-a95ef0ae5bce",
                 "resourcePath": "objects\\obj_stretchy_water\\obj_stretchy_water.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d82e8aeb-6396-466c-8f3f-d338045f5da1",
+            "Value": {
+                "id": "ced4c547-cdfc-4128-ada5-38a5dff81019",
+                "resourcePath": "objects\\shrimpspawner_obj\\shrimpspawner_obj.yy",
                 "resourceType": "GMObject"
             }
         },
