@@ -2,6 +2,7 @@
 // You can write your code in this editor
 ds_stack_clear(pool);
 physics_fixture_delete(fixture);
+fixtured = false;
 image_xscale = 1;
 is_jumping = false;
 phy_speed_x = 0;
