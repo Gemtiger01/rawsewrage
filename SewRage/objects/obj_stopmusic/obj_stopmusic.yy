@@ -1,28 +1,18 @@
 {
-    "id": "ff925f57-8550-4d3f-8ad4-9e496641f7a1",
+    "id": "dc37e7b9-04c3-4a40-bfde-69a740567b44",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_playerstatues",
+    "name": "obj_stopmusic",
     "eventList": [
         {
-            "id": "2d2b0f00-5887-4258-abf2-b38646866094",
+            "id": "67d34be1-17ce-4a34-b372-debe365bcd9a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 64,
-            "eventtype": 8,
-            "m_owner": "ff925f57-8550-4d3f-8ad4-9e496641f7a1"
-        },
-        {
-            "id": "00dd9265-5b03-4ad3-b621-f7314d1380e3",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "ff925f57-8550-4d3f-8ad4-9e496641f7a1"
+            "enumb": 5,
+            "eventtype": 7,
+            "m_owner": "dc37e7b9-04c3-4a40-bfde-69a740567b44"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

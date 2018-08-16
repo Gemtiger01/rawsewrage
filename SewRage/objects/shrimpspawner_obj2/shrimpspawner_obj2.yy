@@ -1,28 +1,28 @@
 {
-    "id": "ff925f57-8550-4d3f-8ad4-9e496641f7a1",
+    "id": "c54063f9-e1ce-4036-891d-fc125f6c27f8",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_playerstatues",
+    "name": "shrimpspawner_obj2",
     "eventList": [
         {
-            "id": "2d2b0f00-5887-4258-abf2-b38646866094",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 64,
-            "eventtype": 8,
-            "m_owner": "ff925f57-8550-4d3f-8ad4-9e496641f7a1"
-        },
-        {
-            "id": "00dd9265-5b03-4ad3-b621-f7314d1380e3",
+            "id": "096dec7f-191e-40c7-9c96-7a6c417424db",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "ff925f57-8550-4d3f-8ad4-9e496641f7a1"
+            "m_owner": "c54063f9-e1ce-4036-891d-fc125f6c27f8"
+        },
+        {
+            "id": "8464ff6e-b16b-4a65-875b-1a69aa875f91",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "c54063f9-e1ce-4036-891d-fc125f6c27f8"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

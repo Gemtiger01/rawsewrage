@@ -203,6 +203,7 @@ if (playerhealth <= 0)
 {
 //	instance_destroy();
 	///instance_destroy();
+	persistent = false;
 	room_goto(rm_defeat);
 }
 
