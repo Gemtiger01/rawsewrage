@@ -4,7 +4,7 @@
 time += increase;
 
 //calculations
-if(time >= 25 || time <= 0){increase = -increase}
+if(time >= 25 or time <= 0){increase = -increase}
 
 //Drawing
 draw_set_alpha(lerp(0,1,time/25))
