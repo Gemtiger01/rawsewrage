@@ -202,7 +202,7 @@ if (playerhealth > maxplayerhealth)
 if (playerhealth <= 0)
 {
 //	instance_destroy();
-	instance_destroy();
+	///instance_destroy();
 	room_goto(rm_defeat);
 }
 
