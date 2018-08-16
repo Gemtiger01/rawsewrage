@@ -1327,6 +1327,14 @@
             }
         },
         {
+            "Key": "dc37e7b9-04c3-4a40-bfde-69a740567b44",
+            "Value": {
+                "id": "8a962a0c-a4ca-41e3-84b8-14d30e742d5c",
+                "resourcePath": "objects\\obj_stopmusic\\obj_stopmusic.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "dc48efea-af1e-42ab-a07d-a4a3f0c8466a",
             "Value": {
                 "id": "84a6bdea-9074-4e2e-b79f-670ee57dda2f",
