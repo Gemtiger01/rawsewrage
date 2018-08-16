@@ -5,16 +5,6 @@
     "name": "obj_coin",
     "eventList": [
         {
-            "id": "fa9a25ae-9451-4c0f-a4e7-fde9ffb31df2",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "cd5d0310-a153-48ce-8858-e5d9fc86e54b",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "4180d04c-33c1-4511-a594-996934c77fe5"
-        },
-        {
             "id": "0c73285a-91b0-42ec-a58c-9080b539e6bd",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -32,7 +22,7 @@
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
-    "physicsGroup": 0,
+    "physicsGroup": -1,
     "physicsKinematic": false,
     "physicsLinearDamping": 0.1,
     "physicsObject": true,
