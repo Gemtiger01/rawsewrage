@@ -1,46 +1,46 @@
 {
-    "id": "6316d289-e5df-4e1a-af79-3011a0c0b207",
+    "id": "d139bb0f-fe72-4188-ae6b-7e81d6d4e2f6",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_creditsbutton1",
+    "name": "spr_exitbuttonpause",
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 314,
-    "bbox_left": 24,
-    "bbox_right": 1009,
-    "bbox_top": 47,
+    "bbox_bottom": 327,
+    "bbox_left": 201,
+    "bbox_right": 897,
+    "bbox_top": 37,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "45e1bc8c-9e6e-45ca-b5ff-cadf6a125072",
+            "id": "9daaa8ef-bd14-4dfd-9b82-f8e544f4804f",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
-            "SpriteId": "6316d289-e5df-4e1a-af79-3011a0c0b207",
+            "SpriteId": "d139bb0f-fe72-4188-ae6b-7e81d6d4e2f6",
             "compositeImage": {
-                "id": "8411603c-e205-49e2-aa39-8fb8bc8245dd",
+                "id": "0a62fe25-082e-43da-9d8f-7bd45b5b0e92",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "45e1bc8c-9e6e-45ca-b5ff-cadf6a125072",
+                "FrameId": "9daaa8ef-bd14-4dfd-9b82-f8e544f4804f",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "6eb033a6-4316-444d-abdd-84eea578d4e1",
+                    "id": "a78e4397-665d-4ef0-9bf5-9f6826a2f189",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "45e1bc8c-9e6e-45ca-b5ff-cadf6a125072",
-                    "LayerId": "761d01e4-126c-4b1a-955b-65281dc6152b"
+                    "FrameId": "9daaa8ef-bd14-4dfd-9b82-f8e544f4804f",
+                    "LayerId": "9dbc35ae-4dc1-4104-9ccc-b522ee2edff7"
                 },
                 {
-                    "id": "b6608374-8503-432d-922f-bc781ea36965",
+                    "id": "7eb111ad-ef7d-4c2d-bf80-ef89d6c814a2",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "45e1bc8c-9e6e-45ca-b5ff-cadf6a125072",
-                    "LayerId": "5818614e-f7ba-4b37-8297-0a37faa0f91e"
+                    "FrameId": "9daaa8ef-bd14-4dfd-9b82-f8e544f4804f",
+                    "LayerId": "14941465-20b1-4b15-8473-1701a6b1c625"
                 }
             ]
         }
@@ -50,29 +50,29 @@
     "height": 360,
     "layers": [
         {
-            "id": "761d01e4-126c-4b1a-955b-65281dc6152b",
+            "id": "9dbc35ae-4dc1-4104-9ccc-b522ee2edff7",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
-            "SpriteId": "6316d289-e5df-4e1a-af79-3011a0c0b207",
-            "blendMode": 0,
-            "isLocked": false,
-            "name": "default",
-            "opacity": 100,
-            "visible": true
-        },
-        {
-            "id": "5818614e-f7ba-4b37-8297-0a37faa0f91e",
-            "modelName": "GMImageLayer",
-            "mvc": "1.0",
-            "SpriteId": "6316d289-e5df-4e1a-af79-3011a0c0b207",
+            "SpriteId": "d139bb0f-fe72-4188-ae6b-7e81d6d4e2f6",
             "blendMode": 0,
             "isLocked": false,
             "name": "Layer 1",
             "opacity": 100,
             "visible": true
+        },
+        {
+            "id": "14941465-20b1-4b15-8473-1701a6b1c625",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "d139bb0f-fe72-4188-ae6b-7e81d6d4e2f6",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "default",
+            "opacity": 100,
+            "visible": true
         }
     ],
-    "origin": 3,
+    "origin": 4,
     "originLocked": false,
     "playbackSpeed": 15,
     "playbackSpeedType": 0,
@@ -83,6 +83,6 @@
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
     "width": 1080,
-    "xorig": 0,
+    "xorig": 540,
     "yorig": 180
 }

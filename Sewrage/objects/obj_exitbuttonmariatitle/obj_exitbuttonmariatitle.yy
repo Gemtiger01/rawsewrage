@@ -1,38 +1,38 @@
 {
-    "id": "aa9f2a08-5d10-448c-9f45-6dd7d8f25595",
+    "id": "fb3a8b7c-d745-4ef7-8d54-b9a4d1b4510d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_pause_screen",
+    "name": "obj_exitbuttonmariatitle",
     "eventList": [
         {
-            "id": "22c5d080-723f-4004-bb25-3bf85a544dde",
+            "id": "70446731-12e6-40c2-85d9-977c51f84ca3",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 8,
-            "m_owner": "aa9f2a08-5d10-448c-9f45-6dd7d8f25595"
+            "m_owner": "fb3a8b7c-d745-4ef7-8d54-b9a4d1b4510d"
         },
         {
-            "id": "6cfe3c36-20e6-4cf7-8c2c-b8ec5ce36c28",
+            "id": "24377523-23ba-42b5-ba45-95203208f160",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 27,
-            "eventtype": 9,
-            "m_owner": "aa9f2a08-5d10-448c-9f45-6dd7d8f25595"
+            "enumb": 7,
+            "eventtype": 6,
+            "m_owner": "fb3a8b7c-d745-4ef7-8d54-b9a4d1b4510d"
         },
         {
-            "id": "a3b3b7e0-7e09-4a71-82a1-00a5075eddaf",
+            "id": "f797d420-ca0e-4ed6-a169-90d116814a9c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "aa9f2a08-5d10-448c-9f45-6dd7d8f25595"
+            "eventtype": 0,
+            "m_owner": "fb3a8b7c-d745-4ef7-8d54-b9a4d1b4510d"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -53,6 +53,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "0f6d4cd3-b653-479f-baab-8c0062dc0416",
     "visible": true
 }
