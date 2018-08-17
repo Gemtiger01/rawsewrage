@@ -5,7 +5,7 @@ if (instance_exists(Player_obj) and !collision_line(x,y,Player_obj.x,Player_obj.
 
 	 if (pearlcooldown <= 0){
 		instance_create_layer(x,y, "Instances", obj_pearl)
-		pearlcooldown = 45;
+		pearlcooldown = 25;
 	 }
 	 pearlcooldown -= 1;
 } 

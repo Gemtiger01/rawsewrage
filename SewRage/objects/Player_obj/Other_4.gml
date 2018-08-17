@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+show_debug_message(room_get_name(room));
 image_xscale = last_xscale;
 if (!fixtured){
 	fixture = physics_fixture_create();
@@ -11,3 +12,5 @@ if (!fixtured){
 	phy_active = true;
 	fixtured = true;
 }
+	start_jump_x = phy_position_x;
+	start_jump_y = phy_position_y;

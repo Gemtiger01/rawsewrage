@@ -34,7 +34,7 @@ if (hp <=0) {
 		instance_create_layer(x,y-315,"Instances", obj_coin)
 		instance_create_layer(x+25,y-300,"Instances", obj_coin)
 		instance_create_layer(x-25,y-305,"Instances", obj_coin)
-		instance_create_layer(x-100, y-300, "Instances", obj_button2)
+		instance_create_layer(x, y, "Instances", obj_button)
 	}
 	effect_create_above(ef_star, x, y, 3, c_red);
 	instance_destroy();
