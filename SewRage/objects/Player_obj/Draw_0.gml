@@ -18,4 +18,7 @@
 //	}
 //}
 //physics_world_draw_debug(phy_debug_render_shapes);
+if (!collision_point( x, y, obj_stretchy_water, false, true ) or is_jumping){
+	draw_sprite_ext(spr_playershadow,0, x, y,1,1,0,0,.75 );
+}
 draw_self();

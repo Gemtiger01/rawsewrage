@@ -1,8 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-maxhp = 125;
-hp = maxhp;
-
-pearlcooldown = 25;
-
-secondhp = 0
+if (hit or x <= 0) {
+	instance_destroy();
+}

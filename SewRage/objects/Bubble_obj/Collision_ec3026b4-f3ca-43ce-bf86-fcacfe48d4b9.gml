@@ -1,8 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-maxhp = 125;
-hp = maxhp;
-
-pearlcooldown = 25;
-
-secondhp = 0
+audio_play_sound(sound_pop,0,0);
+scr_destroy_bullet();
