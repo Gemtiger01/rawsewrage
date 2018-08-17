@@ -5,7 +5,7 @@
     "name": "obj_exitbuttonmaria",
     "eventList": [
         {
-            "id": "ebb4ba1c-45ba-4112-a571-d4d2292bfd7b",
+            "id": "15c443e3-8207-45fd-a055-52483ed03365",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,13 +15,23 @@
             "m_owner": "7035b4af-15fc-4dc8-b6a6-1c50ecd8dd98"
         },
         {
-            "id": "ccda1731-5aaa-4702-98c2-5d1507441636",
+            "id": "fd28a1df-0f9b-4868-8e7a-34a9bf8abef9",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 7,
             "eventtype": 6,
+            "m_owner": "7035b4af-15fc-4dc8-b6a6-1c50ecd8dd98"
+        },
+        {
+            "id": "648d59d8-cc13-4441-9e30-3efd257d1041",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
             "m_owner": "7035b4af-15fc-4dc8-b6a6-1c50ecd8dd98"
         }
     ],
@@ -43,6 +53,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "d139bb0f-fe72-4188-ae6b-7e81d6d4e2f6",
+    "spriteId": "299eae6a-c124-4cdd-bda9-6fe6932ebe6d",
     "visible": true
 }
