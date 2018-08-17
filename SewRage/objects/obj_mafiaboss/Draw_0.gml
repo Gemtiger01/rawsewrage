@@ -9,4 +9,5 @@ draw_text_transformed_color(x,y-81,life_disp,1,1,0,c_black,c_black,c_black,c_bla
 draw_text_transformed_color(x-1,y-80,life_disp,1,1,0,c_black,c_black,c_black,c_black,1);
 draw_text_transformed_color(x+1,y-80,life_disp,1,1,0,c_black,c_black,c_black,c_black,1);
 draw_text_transformed_color(x,y-80,life_disp,1,1,0,c_red,c_red,c_maroon,c_maroon,1);
+draw_sprite_ext(spr_bigshadow,0, x, y,1,1,0,0,.75 );
 draw_self();
