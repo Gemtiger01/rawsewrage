@@ -5,10 +5,10 @@ tx=0;
 ty=0;
 alarm_set(1,1);
 
-maxhp = 50;
+maxhp = 100;
 hp = maxhp;
 ///adds the basic enemy speed 
-spd = max(8, random(12));
+spd = max(6, random(8));
 
 phy_fixed_rotation = true;
 
