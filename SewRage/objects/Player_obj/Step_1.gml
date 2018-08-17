@@ -1,5 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
+if (room_get_name(room) == "rm_Victory" or room_get_name(room) == "rm_defeat") {
+	persistent = false;
+	instance_destroy();
+}
+
 if(global.paused){
 	global.RoomBeforePause = -1;
     sprite_delete(global.PauseScreenShot);
