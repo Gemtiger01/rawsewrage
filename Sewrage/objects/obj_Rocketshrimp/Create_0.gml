@@ -5,3 +5,4 @@ hit = false;
 image_xscale = 0.8;
 image_yscale = 0.8;
 depth = -10001
+phy_fixed_rotation = true;

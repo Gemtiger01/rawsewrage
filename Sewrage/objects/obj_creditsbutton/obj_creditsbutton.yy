@@ -5,7 +5,7 @@
     "name": "obj_creditsbutton",
     "eventList": [
         {
-            "id": "473cb0d7-af8d-488d-b591-7e78b0f70ca8",
+            "id": "5147bbfb-b60c-4931-8c44-c8e65ff7fbe5",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,13 +15,23 @@
             "m_owner": "8b97ec20-ada0-4c67-9fb0-efca5c83dfb8"
         },
         {
-            "id": "c94d5bb3-37da-4e54-9272-45a735b3744b",
+            "id": "e0ab56ba-f956-4cad-8caa-96d42b1537ce",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
+            "m_owner": "8b97ec20-ada0-4c67-9fb0-efca5c83dfb8"
+        },
+        {
+            "id": "af2d1479-c520-4d3c-a25e-4ea3077f4c22",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 7,
+            "eventtype": 6,
             "m_owner": "8b97ec20-ada0-4c67-9fb0-efca5c83dfb8"
         }
     ],
