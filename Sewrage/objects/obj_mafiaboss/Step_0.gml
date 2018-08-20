@@ -10,7 +10,7 @@ if instance_exists(Player_obj){
 			var ldy = lengthdir_y(10, dir);
 			spawn = random_range(0,5);
 			if (spawn != 1){
-				cheese = instance_create_layer( phy_position_x + ldx, phy_position_y + ldy, "Bullet_layer", obj_Cheese);
+				cheese = instance_create_layer( phy_position_x + ldx, phy_position_y + ldy - 20, "Bullet_layer", obj_Cheese);
 				with (cheese){
 					var ldx = lengthdir_x(15, other.dir);
 					var ldy = lengthdir_y(15, other.dir);
