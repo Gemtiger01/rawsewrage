@@ -17,6 +17,8 @@ force_wall=false;
 if (instance_number(Player_obj)>1){
 	dupe = true;
 	instance_destroy();
+}else{
+	dupe = false;
 }
 set_sprite_index = sprite_index;
 start_jump_x = phy_position_x;
