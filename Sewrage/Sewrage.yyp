@@ -959,6 +959,14 @@
             }
         },
         {
+            "Key": "9385d737-17eb-4e4a-ac72-e8fb8e79f5e0",
+            "Value": {
+                "id": "151092ca-56db-4d40-967b-31cee32d896d",
+                "resourcePath": "objects\\obj_fps\\obj_fps.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "946e5d6e-49d0-471f-b930-6e99460421cc",
             "Value": {
                 "id": "2d1eaa68-6508-4f2e-87dd-c0c360359ae5",
