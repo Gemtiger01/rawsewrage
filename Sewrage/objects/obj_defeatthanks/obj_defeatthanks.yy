@@ -2,7 +2,7 @@
     "id": "d680d396-8fa5-4f49-9b6d-68ff7d2f5072",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_flashthanks1",
+    "name": "obj_defeatthanks",
     "eventList": [
         {
             "id": "4a67b734-8208-4506-b8bc-80d5b31eaa39",
