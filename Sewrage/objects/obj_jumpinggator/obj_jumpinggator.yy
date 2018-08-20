@@ -1,19 +1,10 @@
 {
-    "id": "514f0da7-e3d9-42f5-a719-117c3284a846",
+    "id": "71cc73b7-fca9-4185-9cca-1ff166cb404d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_exittitle",
+    "name": "obj_jumpinggator",
     "eventList": [
-        {
-            "id": "00318a57-0844-4c04-9f38-97b76b262851",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
-            "eventtype": 6,
-            "m_owner": "514f0da7-e3d9-42f5-a719-117c3284a846"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "6fcadc25-9fbf-4183-b3c2-7763468cfc9a",
+    "spriteId": "d9fbfd91-be88-4cb8-8974-90f1db2fec09",
     "visible": true
 }
