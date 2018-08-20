@@ -220,7 +220,7 @@
             "isLocked": false,
             "name": "Layer 8",
             "opacity": 100,
-            "visible": true
+            "visible": false
         },
         {
             "id": "f1bd2d1f-be12-44bb-a446-ab8e8d588953",
