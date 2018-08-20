@@ -759,6 +759,14 @@
             }
         },
         {
+            "Key": "71cc73b7-fca9-4185-9cca-1ff166cb404d",
+            "Value": {
+                "id": "3aaaae64-4221-4919-ab6a-30f407d4bfeb",
+                "resourcePath": "objects\\obj_jumpinggator\\obj_jumpinggator.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "73ae5e7a-a648-473a-ac5a-6938d9add20e",
             "Value": {
                 "id": "948e7990-bba5-46d4-b1aa-e4b239e19fdd",
