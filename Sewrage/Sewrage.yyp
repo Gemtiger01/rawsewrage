@@ -226,7 +226,7 @@
             "Key": "1e62f3c5-fce7-4b4d-bfbe-5e0c0eb62ad5",
             "Value": {
                 "id": "8491cd97-61a3-41f6-b056-dbf542e357ee",
-                "resourcePath": "objects\\obj_flashthanks\\obj_flashthanks.yy",
+                "resourcePath": "objects\\obj_victorythanks\\obj_victorythanks.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -284,6 +284,14 @@
                 "id": "a18f4658-7699-4678-80a0-1769425f4fdc",
                 "resourcePath": "sprites\\spr_pressanykeytostart\\spr_pressanykeytostart.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2a4702a7-f73b-424f-b71a-cc09cf872105",
+            "Value": {
+                "id": "04398421-31d2-4982-8c45-d6d49bb32c3c",
+                "resourcePath": "objects\\obj_creditsreturn\\obj_creditsreturn.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1402,7 +1410,7 @@
             "Key": "d680d396-8fa5-4f49-9b6d-68ff7d2f5072",
             "Value": {
                 "id": "0c1155b6-4c23-455b-b6c7-188736a1d5ed",
-                "resourcePath": "objects\\obj_flashthanks1\\obj_flashthanks1.yy",
+                "resourcePath": "objects\\obj_defeatthanks\\obj_defeatthanks.yy",
                 "resourceType": "GMObject"
             }
         },
