@@ -935,6 +935,14 @@
             }
         },
         {
+            "Key": "8d092a1e-925e-4835-9a6b-a21ff7e8e7f4",
+            "Value": {
+                "id": "7ceba810-b1c8-4f1c-8b92-99d1c5fa44a7",
+                "resourcePath": "sounds\\sound_shrimpsmack\\sound_shrimpsmack.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "8e207655-dce8-4d84-abf9-921d4cd8d717",
             "Value": {
                 "id": "75383323-406c-44e8-bf57-263a4ddb94e8",
