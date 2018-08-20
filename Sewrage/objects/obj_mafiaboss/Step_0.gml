@@ -37,6 +37,7 @@ if (hp <=0) {
 		instance_create_layer(x, y, "Instances", obj_button)
 	}
 	effect_create_above(ef_star, x, y, 3, c_red);
+	Player_obj.persistent = false;
 	instance_destroy();
 	
 }
