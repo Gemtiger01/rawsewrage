@@ -3,9 +3,9 @@ if instance_exists(Player_obj){
 
 	 if (CheeseCooldown <= 0){
 		dir = point_direction(x,y, Player_obj.x, Player_obj.y);
-		dir -= 5;
+		dir -= health_adjust;
 		alarm_set(0,10);
-		for (x = 0; x < 3; x++){
+		for (x = 0; x < health_adjust; x++){
 			var ldx = lengthdir_x(10, dir);
 			var ldy = lengthdir_y(10, dir);
 			spawn = random_range(0,5);
@@ -28,12 +28,12 @@ if instance_exists(Player_obj){
 if (hp <=0) {
 	var Lootdrop = random(100)
 	if (Lootdrop <= 100){
-		instance_create_layer(x,y-305,"Instances", obj_coin)
-		instance_create_layer(x,y-300,"Instances", obj_coin)
-		instance_create_layer(x,y-310,"Instances", obj_coin)
-		instance_create_layer(x,y-315,"Instances", obj_coin)
-		instance_create_layer(x+25,y-300,"Instances", obj_coin)
-		instance_create_layer(x-25,y-305,"Instances", obj_coin)
+		instance_create_layer(x,y-5,"Instances", obj_coin)
+		instance_create_layer(x,y,"Instances", obj_coin)
+		instance_create_layer(x,y-10,"Instances", obj_coin)
+		instance_create_layer(x,y-15,"Instances", obj_coin)
+		instance_create_layer(x+25,y,"Instances", obj_coin)
+		instance_create_layer(x-25,y-5,"Instances", obj_coin)
 		instance_create_layer(x, y, "Instances", obj_button)
 	}
 	effect_create_above(ef_star, x, y, 3, c_red);

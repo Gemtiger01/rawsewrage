@@ -6,10 +6,10 @@
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 683,
-    "bbox_left": 40,
-    "bbox_right": 1028,
-    "bbox_top": 11,
+    "bbox_bottom": 719,
+    "bbox_left": 0,
+    "bbox_right": 1079,
+    "bbox_top": 0,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
@@ -78,7 +78,7 @@
                     "LayerId": "ba698e8d-0ce7-4b85-b58d-8b93bb4c063d"
                 },
                 {
-                    "id": "aa8935da-e6bf-4d55-9ac6-9fbd4ab6b59f",
+                    "id": "2e0f76f2-fd1c-47bd-ac55-dd342bd85291",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
                     "FrameId": "da69e189-6a2f-4113-97c4-35f4df4be08e",
@@ -149,7 +149,7 @@
                     "LayerId": "ba698e8d-0ce7-4b85-b58d-8b93bb4c063d"
                 },
                 {
-                    "id": "754ce900-553c-4a1c-abfb-fd92ee059597",
+                    "id": "fc7f533f-999d-44b2-a53d-5d80b1c13c23",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
                     "FrameId": "9ed6999f-de23-482d-93ea-232247357582",
@@ -220,7 +220,7 @@
                     "LayerId": "ba698e8d-0ce7-4b85-b58d-8b93bb4c063d"
                 },
                 {
-                    "id": "73a2f9ac-fa18-4ff4-b537-67d509c7b7f0",
+                    "id": "2a243378-f961-46b4-9c0c-403b78d9b33b",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
                     "FrameId": "85f494ef-303f-423f-b16d-19b23b0798ef",
@@ -291,7 +291,7 @@
                     "LayerId": "ba698e8d-0ce7-4b85-b58d-8b93bb4c063d"
                 },
                 {
-                    "id": "feb63453-ce6b-4504-8a2d-5c309aa80be2",
+                    "id": "40234077-a60a-46f0-99e5-6f569690d611",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
                     "FrameId": "cb5e1751-dd5f-457e-bf96-6d96ccbf7820",
@@ -362,7 +362,7 @@
                     "LayerId": "ba698e8d-0ce7-4b85-b58d-8b93bb4c063d"
                 },
                 {
-                    "id": "c7fdfaa1-af8d-41f2-8c7b-6c05380e8432",
+                    "id": "d128a030-ce5d-4497-8b70-74233305eb91",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
                     "FrameId": "d54f55af-96af-4b5e-a314-63906babd4d7",
@@ -433,7 +433,7 @@
                     "LayerId": "ba698e8d-0ce7-4b85-b58d-8b93bb4c063d"
                 },
                 {
-                    "id": "0d334506-98cd-463a-9d2f-6a467ac261bd",
+                    "id": "5d6deffb-bdc5-4796-a218-19433b1739d1",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
                     "FrameId": "bfce309d-826d-4adb-94af-d1ec9e1c57fa",
@@ -504,7 +504,7 @@
                     "LayerId": "ba698e8d-0ce7-4b85-b58d-8b93bb4c063d"
                 },
                 {
-                    "id": "25911ecd-b3e8-4275-bff2-35c36743d874",
+                    "id": "7bcf3f09-b2f4-4285-a2eb-c9dbbc570adf",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
                     "FrameId": "9aa372ac-18cf-4cab-a911-613622db6945",
@@ -575,7 +575,7 @@
                     "LayerId": "ba698e8d-0ce7-4b85-b58d-8b93bb4c063d"
                 },
                 {
-                    "id": "aa6c6a39-22d3-43f9-abd2-5d6defbd0c89",
+                    "id": "03b5c45f-a326-46fb-9f4a-22b175c70651",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
                     "FrameId": "005d5a18-031e-4841-a169-0f46573d9c0e",
@@ -663,7 +663,7 @@
             "isLocked": false,
             "name": "Layer 3",
             "opacity": 100,
-            "visible": false
+            "visible": true
         },
         {
             "id": "d37bdecc-883e-4c9c-94a2-5619b323945b",
@@ -674,7 +674,7 @@
             "isLocked": false,
             "name": "Layer 1",
             "opacity": 100,
-            "visible": false
+            "visible": true
         }
     ],
     "origin": 0,
