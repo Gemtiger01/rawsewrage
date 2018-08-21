@@ -1,6 +1,7 @@
 /// @description Insert description here
 ///range cooldown
 global.paused = false;
+global.to_title = false;
 damage_cooldown = 0;
 damage_alpha = 1;
 cursor_sprite = spr_crosshair;
