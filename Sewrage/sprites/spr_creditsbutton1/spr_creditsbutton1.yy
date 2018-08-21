@@ -6,10 +6,10 @@
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 314,
-    "bbox_left": 24,
-    "bbox_right": 1009,
-    "bbox_top": 47,
+    "bbox_bottom": 229,
+    "bbox_left": 256,
+    "bbox_right": 781,
+    "bbox_top": 129,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
@@ -29,18 +29,11 @@
             },
             "images": [
                 {
-                    "id": "6eb033a6-4316-444d-abdd-84eea578d4e1",
+                    "id": "23557e9c-e57a-4d6a-834b-cb70ca2162d3",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
                     "FrameId": "45e1bc8c-9e6e-45ca-b5ff-cadf6a125072",
-                    "LayerId": "761d01e4-126c-4b1a-955b-65281dc6152b"
-                },
-                {
-                    "id": "b6608374-8503-432d-922f-bc781ea36965",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "45e1bc8c-9e6e-45ca-b5ff-cadf6a125072",
-                    "LayerId": "5818614e-f7ba-4b37-8297-0a37faa0f91e"
+                    "LayerId": "59fb4a8f-fadf-4fe4-9fd1-e0cfc8397c0c"
                 }
             ]
         }
@@ -50,24 +43,13 @@
     "height": 360,
     "layers": [
         {
-            "id": "761d01e4-126c-4b1a-955b-65281dc6152b",
+            "id": "59fb4a8f-fadf-4fe4-9fd1-e0cfc8397c0c",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
             "SpriteId": "6316d289-e5df-4e1a-af79-3011a0c0b207",
             "blendMode": 0,
             "isLocked": false,
             "name": "default",
-            "opacity": 100,
-            "visible": true
-        },
-        {
-            "id": "5818614e-f7ba-4b37-8297-0a37faa0f91e",
-            "modelName": "GMImageLayer",
-            "mvc": "1.0",
-            "SpriteId": "6316d289-e5df-4e1a-af79-3011a0c0b207",
-            "blendMode": 0,
-            "isLocked": false,
-            "name": "Layer 1",
             "opacity": 100,
             "visible": true
         }
