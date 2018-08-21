@@ -487,6 +487,14 @@
             }
         },
         {
+            "Key": "418b014a-bc6a-4110-bcdf-fe6c1dd33573",
+            "Value": {
+                "id": "81df6378-b1d4-4eeb-b040-337ee265603e",
+                "resourcePath": "objects\\obj_spr_bandage\\obj_spr_bandage.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "42682bf1-d666-430a-87ab-68c52962b246",
             "Value": {
                 "id": "11c6f3b1-bf84-4315-86eb-b0a0d5cde9f9",
@@ -1044,6 +1052,14 @@
                 "id": "2d1eaa68-6508-4f2e-87dd-c0c360359ae5",
                 "resourcePath": "sprites\\spr_conquestended\\spr_conquestended.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "94da491f-772f-48f6-8d26-bcbd708b384e",
+            "Value": {
+                "id": "8ccf999f-a12d-4a84-afcd-8047523608f6",
+                "resourcePath": "objects\\obj_spr_coin\\obj_spr_coin.yy",
+                "resourceType": "GMObject"
             }
         },
         {
