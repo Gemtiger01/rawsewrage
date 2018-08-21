@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-depth = -y;
+depth = -phy_position_y;
 if (damage_cooldown > 0) {
 	damage_cooldown--;
 	damage_alpha = sin(damage_cooldown * 10);
