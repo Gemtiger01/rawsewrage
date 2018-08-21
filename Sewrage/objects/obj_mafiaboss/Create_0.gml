@@ -2,6 +2,7 @@
 maxhp = 1000;
 hp = maxhp;
 count = 0;
+health_adjust = 5;
 path = path_add();
 alarm_set(1,20);
 

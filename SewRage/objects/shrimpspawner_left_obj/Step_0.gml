@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-room_restart();
-room_goto(rm_title);
+if (instance_number(obj_mafiaboss) < 1){
+	alarm[0] = -1;
+}
