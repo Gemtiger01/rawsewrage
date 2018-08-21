@@ -4,6 +4,8 @@ global.paused = false;
 global.to_title = false;
 damage_cooldown = 0;
 damage_alpha = 1;
+last_mousex = window_mouse_get_x();
+last_mousey = window_mouse_get_y();
 cursor_sprite = spr_crosshair;
 window_set_cursor(cr_none);
 fixture = physics_fixture_create();

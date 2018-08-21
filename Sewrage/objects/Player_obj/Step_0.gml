@@ -17,6 +17,20 @@ else var rhaxis = 0;
 if gamepad_is_connected(0) var rvaxis = gamepad_axis_value(0,gp_axisrv);
 else var rvaxis = 0;
 
+if(gamepad_is_connected(0)){
+	if(rvaxis != 0 or rhaxis != 0){
+		cursor_sprite = -1;
+		last_mousex = window_mouse_get_x();
+		last_mousey = window_mouse_get_y();
+	}
+	if(last_mousex != window_mouse_get_x() or last_mousey != window_mouse_get_y()){
+		cursor_sprite = spr_crosshair;
+	}
+}
+if(!gamepad_is_connected(0) and cursor_sprite = -1){
+	cursor_sprite = spr_crosshair;
+}
+
 if (!is_jumping){
 	if (keyboard_check(ord("W")) or keyboard_check(vk_up) or lvaxis < -.5){
 		ydir = -1;
@@ -59,10 +73,14 @@ if (!is_jumping){
 	}
 
 	if (gamepad_is_connected(0) and lvaxis == 0){
-		ydir = 0;
+		if (!keyboard_check_direct(ord("W")) and !keyboard_check_direct(ord("S"))){
+			ydir = 0;
+		}
 	}
 	if (gamepad_is_connected(0) and lhaxis == 0){
-		xdir = 0;
+		if (!keyboard_check_direct(ord("A")) and !keyboard_check_direct(ord("D"))){
+			xdir = 0;
+		}
 	}
 
 	if (keyboard_check_pressed(vk_shift) or gamepad_button_check_pressed(0,gp_shoulderrb)){
