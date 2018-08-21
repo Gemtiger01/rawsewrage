@@ -1,6 +1,7 @@
 /// @description Insert description here
 ///range cooldown
 global.paused = false;
+global.to_title = false;
 damage_cooldown = 0;
 damage_alpha = 1;
 cursor_sprite = spr_crosshair;
@@ -36,7 +37,7 @@ speed_multiplier = 1;
 hsp = 5
 vsp = 0
 
-maxplayerhealth = 100
+maxplayerhealth = 150
 playerhealth = maxplayerhealth
 
 maxenergy = 100

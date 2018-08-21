@@ -1,7 +1,7 @@
 /// @description Insert description here
 dir = point_direction(x,y, Player_obj.x, Player_obj.y);
-dir -= 5;
-for (x = 0; x < 3; x++){
+dir -= health_adjust;
+for (x = 0; x < health_adjust; x++){
 	var ldx = lengthdir_x(10, dir);
 	var ldy = lengthdir_y(10, dir);
 	spawn = random_range(0,5);
