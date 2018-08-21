@@ -58,3 +58,14 @@ is_jumping = false;
 npj_target_x = 0;
 npj_target_y = 0;
 
+if (Money == 10){
+	maxplayerhealth += 20
+}
+
+if (Money == 20){
+	maxplayerhealth += 40
+}
+
+if (Money == 30){
+	maxplayerhealth += 60
+}

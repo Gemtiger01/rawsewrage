@@ -17,5 +17,6 @@ phy_fixed_rotation = true;
 ///image_xscale = 0.5;
 ///image_yscale = 0.5;
 if (hp <= 295){
-	spd = 20
+	spd = 32
 }
+
