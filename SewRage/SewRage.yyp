@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "1e62f3c5-fce7-4b4d-bfbe-5e0c0eb62ad5",
+            "Value": {
+                "id": "348d0521-9c2d-45b7-a2be-46dcb889961c",
+                "resourcePath": "objects\\obj_thanks\\obj_thanks.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1f0f934e-db58-4731-85d8-8da6d36fb91f",
             "Value": {
                 "id": "e1361136-f7f2-4aac-81e8-d08f13f02d72",
@@ -959,6 +967,14 @@
             }
         },
         {
+            "Key": "8f60b03f-1616-4c0f-ab2d-1be6091fce77",
+            "Value": {
+                "id": "fc6cfb1e-d0c7-49e8-a553-b469df4fa59b",
+                "resourcePath": "objects\\obj_creditthx\\obj_creditthx.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9008e085-1d1d-42bf-b9b4-4964846ce493",
             "Value": {
                 "id": "fb95f5fe-13ce-4d18-bf10-984f69b9057a",
@@ -1420,6 +1436,14 @@
                 "id": "bc0dc4c1-a937-4e5e-b546-94845adb5e60",
                 "resourcePath": "tilesets\\tls_sewer3_tint\\tls_sewer3_tint.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "d680d396-8fa5-4f49-9b6d-68ff7d2f5072",
+            "Value": {
+                "id": "d04895c8-b604-4b3b-85db-0ed607c5609d",
+                "resourcePath": "objects\\obj_defeatthx\\obj_defeatthx.yy",
+                "resourceType": "GMObject"
             }
         },
         {
