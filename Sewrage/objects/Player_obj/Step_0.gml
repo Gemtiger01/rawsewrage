@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-depth = -y;
+depth = -phy_position_y;
 if (damage_cooldown > 0) {
 	damage_cooldown--;
 	damage_alpha = sin(damage_cooldown * 10);
@@ -65,10 +65,10 @@ if (!is_jumping){
 		xdir = 0;
 	}
 
-	if (keyboard_check_pressed(vk_shift) or gamepad_button_check_pressed(0,gp_shoulderr)){
+	if (keyboard_check_pressed(vk_shift) or gamepad_button_check_pressed(0,gp_shoulderrb)){
 		speed_multiplier = 1.5;
 	}
-	if (keyboard_check_released(vk_shift)or gamepad_button_check_released(0,gp_shoulderr)){
+	if (keyboard_check_released(vk_shift)or gamepad_button_check_released(0,gp_shoulderrb)){
 		speed_multiplier = 1;
 	}
 
@@ -118,7 +118,7 @@ if (xdir == 1 and ydir == 1) {
 }
 
 
-if ((keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(0,gp_stickl)) and !is_jumping) {
+if ((keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(0,gp_shoulderlb)) and !is_jumping) {
 	is_jumping = true;
 	npj_target_x = jump_target_x;
 	npj_target_y = jump_target_y;
@@ -223,6 +223,20 @@ if (collision_point( x, y, obj_stretchy_water, false, true ) and !is_jumping){
 	sprite_index = set_sprite_index;
 }
 
+if (!global.paused and gamepad_button_check_pressed(0, gp_start)){
+	global.paused = true;
+	var width = surface_get_width(application_surface),
+	    height = surface_get_height(application_surface);
+
+	// This will create a sprite from the application surface, which will be the screenshot of the game.
+	global.PauseScreenShot = sprite_create_from_surface(application_surface, 0, 0, width, height, false, false, 0, 0);
+
+	room_persistent = true;
+
+	global.RoomBeforePause = room;
+	persistent = false;
+	room_goto(rm_pause);
+}
 
 //if (window_get_fullscreen() = true){
 //	view_set_wport(0, display_get_width());

@@ -1,4 +1,4 @@
-
+depth = -phy_position_y;
 if instance_exists(Player_obj){
 
 	 if (CheeseCooldown <= 0){
@@ -20,7 +20,7 @@ if instance_exists(Player_obj){
 			}
 			dir += 5;
 		}
-		CheeseCooldown = 120;
+		CheeseCooldown = 300;
 	 }
 	 CheeseCooldown -= 1;
 } 

@@ -12,7 +12,7 @@
 //		path_start(path, 3, 0, 0);
 //	}
 //}
-
+depth = -phy_position_y;
 if (hp <= 0){
 	var Lootdrop = random(100)
 	if (Lootdrop <= 10){

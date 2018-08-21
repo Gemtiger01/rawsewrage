@@ -5,23 +5,13 @@
     "name": "obj_pressanykey",
     "eventList": [
         {
-            "id": "587b40c2-3225-43d4-95b2-d043c7bd355e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 13,
-            "eventtype": 10,
-            "m_owner": "821b8025-48e5-4414-bb58-1a1f979c9526"
-        },
-        {
             "id": "cc58fa9d-9326-43b2-a59a-180c1842a642",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 1,
-            "eventtype": 10,
+            "eventtype": 9,
             "m_owner": "821b8025-48e5-4414-bb58-1a1f979c9526"
         }
     ],

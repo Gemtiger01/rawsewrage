@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-depth = -y;
 if (mp_grid_path(global.grid, path, x, y, Player_obj.phy_position_x, Player_obj.phy_position_y, 1)){
 	if (distance_to_object(Player_obj) < 300 or instance_number(obj_mafiaboss) > 0){
 		path_target = 1;
