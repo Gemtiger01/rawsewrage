@@ -20,7 +20,7 @@ if instance_exists(Player_obj){
 			}
 			dir += 5;
 		}
-		CheeseCooldown = 120;
+		CheeseCooldown = 300;
 	 }
 	 CheeseCooldown -= 1;
 } 
