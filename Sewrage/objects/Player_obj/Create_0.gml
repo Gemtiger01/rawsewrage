@@ -36,7 +36,7 @@ speed_multiplier = 1;
 hsp = 5
 vsp = 0
 
-maxplayerhealth = 100
+maxplayerhealth = 150
 playerhealth = maxplayerhealth
 
 maxenergy = 100
