@@ -703,10 +703,26 @@
             }
         },
         {
+            "Key": "6a37ddf9-01e3-43f7-8dc7-0ebebb3b3fc1",
+            "Value": {
+                "id": "5556e478-31ac-4ec8-9411-5cc19e9c7766",
+                "resourcePath": "sprites\\spr_controls_white\\spr_controls_white.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6cbc2394-7822-4036-9e64-94f6248fee1c",
             "Value": {
                 "id": "de0da4a0-cd11-4070-80db-ec130200fb79",
                 "resourcePath": "objects\\obj_flashtext\\obj_flashtext.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6d0c343e-e04f-478c-8b66-f50825a72b26",
+            "Value": {
+                "id": "764a3224-e7e0-4d76-b61e-91906779d8a8",
+                "resourcePath": "objects\\shrimpspawner_left_obj\\shrimpspawner_left_obj.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -956,6 +972,14 @@
                 "id": "16fd6c46-d43e-47cd-b175-6251463876cd",
                 "resourcePath": "objects\\obj_creditsbutton\\obj_creditsbutton.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8d092a1e-925e-4835-9a6b-a21ff7e8e7f4",
+            "Value": {
+                "id": "7ceba810-b1c8-4f1c-8b92-99d1c5fa44a7",
+                "resourcePath": "sounds\\sound_shrimpsmack\\sound_shrimpsmack.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1315,6 +1339,14 @@
             "Value": {
                 "id": "c5001448-7d02-480f-aa3e-8ee3f40536dd",
                 "resourcePath": "objects\\obj_halfwall\\obj_halfwall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cc2b5598-6f19-4aeb-bfe0-4a3fcdae24e7",
+            "Value": {
+                "id": "8debe658-9a56-4444-b793-c52a1e28b559",
+                "resourcePath": "objects\\obj_Rocketshrimp_left\\obj_Rocketshrimp_left.yy",
                 "resourceType": "GMObject"
             }
         },
