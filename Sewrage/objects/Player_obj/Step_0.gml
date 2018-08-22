@@ -264,4 +264,3 @@ if (!global.paused and gamepad_button_check_pressed(0, gp_start)){
 //	view_set_hport(0, 720);
 //}
 
-

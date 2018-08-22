@@ -23,6 +23,7 @@ if (instance_number(Player_obj)>1){
 }else{
 	dupe = false;
 }
+sprite_index = spr_player_down;
 set_sprite_index = sprite_index;
 start_jump_x = phy_position_x;
 start_jump_y = phy_position_y;
