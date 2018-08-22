@@ -1,6 +1,6 @@
 /// @description Insert description here
 dir = point_direction(x,y, Player_obj.x, Player_obj.y);
-dir -= health_adjust;
+dir += ((health_adjust - 2)/2) * 5;
 for (x = 0; x < health_adjust; x++){
 	var ldx = lengthdir_x(10, dir);
 	var ldy = lengthdir_y(10, dir);
@@ -14,7 +14,7 @@ for (x = 0; x < health_adjust; x++){
 			phy_rotation = radtodeg(other.dir);
 		}
 	}
-	dir += 5;
+	dir -= 5;
 }
 if (count<6){
 	alarm_set(0, 10);
