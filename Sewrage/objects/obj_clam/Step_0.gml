@@ -15,7 +15,6 @@ if hp <= 0{
 	if (Lootdrop <= 100){
 		instance_create_layer(x,y-5,"Instances", obj_coin)
 	}
-	effect_create_above(ef_spark, x, y, 3, c_fuchsia);
 	instance_destroy();
 }
 	
