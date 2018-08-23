@@ -16,7 +16,7 @@ if (rhaxis != 0 or rvaxis != 0){
 }else{
 	dir = point_direction(phy_position_x,phy_position_y,mouse_x,mouse_y);
 }
-dir = dir + random_range(-5,5);
+dir += random_range(-5,5)-5;
 //ldx = lengthdir_x(0, dir);
 //ldy = lengthdir_y(20, dir);
 //phy_position_x=Player_obj.phy_position_x+ldx;
