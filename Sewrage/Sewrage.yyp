@@ -1111,6 +1111,14 @@
             }
         },
         {
+            "Key": "98faa5ee-dfb3-48ca-9b63-fb735012036a",
+            "Value": {
+                "id": "ff70a0e4-6784-4050-8886-a682eb950921",
+                "resourcePath": "sprites\\spr_uselessdata\\spr_uselessdata.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9bb07a01-3de0-4938-8b36-ea4c743c2cf7",
             "Value": {
                 "id": "2c35fe96-1cca-426b-9e1c-03b4023645ab",
